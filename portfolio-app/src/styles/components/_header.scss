@@ -2,6 +2,7 @@
 
 header {
     background-color: $orange;
+    margin: 10px 0px 100px 0px;
 
     h1 {
         @include flatten;

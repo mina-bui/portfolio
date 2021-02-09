@@ -9,7 +9,7 @@ const PageNotFound = () => (
 			<div className="page-info">
 				<h2>404...Page Not Found</h2>
 			</div>
-			<div className="about-text">
+			<div className="page-text">
 				<p>Go to the <Link to={'/'}>home</Link> page.</p>
 			</div>
 		</section>
