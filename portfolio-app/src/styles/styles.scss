@@ -1,0 +1,32 @@
+// Imports
+
+// Google Fonts - Import
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:400,400i,700,700i&display=swap");
+
+// Functions
+@import "./utilities/functions.scss";
+
+// Settings
+@import "./base/settings";
+
+// Utilities
+@import "./utilities/mixins.scss";
+@import "./utilities/utility-classes";
+
+// Resets
+@import "./base/reset";
+@import "./base/type";
+
+// Components
+@import "./components/body";
+@import "./components/wrapper";
+@import "./components/header";
+@import "./components/btn-main-nav";
+@import "./components/nav";
+@import "./components/main";
+@import "./components/footer";
+
+@import "./components/about";
+@import "./components/page-not-found";
+@import "./components/single-project";
+@import "./components/social-media-bar";
