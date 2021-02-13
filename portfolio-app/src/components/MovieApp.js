@@ -7,7 +7,7 @@ const Projects = () => (
 	<main>
 		<section>
 			<div className="page-info">
-				<h2>Filmdex - React Movie App</h2>
+				<h2>Filmdex &#x2014; React Movie App</h2>
 			</div>
 			<div className="page-text">
 				<div className="project-detail">

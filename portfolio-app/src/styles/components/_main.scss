@@ -4,6 +4,7 @@ main {
     padding: $section-padding;
 }
 
+// Project Title and Description
 .capstone-card {
     grid-area: capstone;
     margin-top: 50px;
@@ -20,6 +21,7 @@ main {
     grid-area: brochure;
     margin-top: 50px;
 }
+// Project Link to Live Site
 .capstone-live-link {
     grid-area: capstone-link;
 }
@@ -32,6 +34,7 @@ main {
 .brochure-live-link {
     grid-area: brochure-link;
 }
+// Grid Styling for Project List
 .home-project-list {
     column-gap: 50px;
     display: grid;

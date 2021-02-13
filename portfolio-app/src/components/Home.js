@@ -32,7 +32,7 @@ const Home = (props) => {
 
                     <div className="movieapp-card">
                         <p>
-                            <Link to={'/movieapp'}><b>Filmdex</b></Link> &#x2014; Combining React and an API to create a movie database web application for film buffs.
+                            <Link to={'/movieapp'}><b>Filmdex</b></Link> &#x2014; Combining React and an API to create a movie search web application for film buffs.
                         </p>
                     </div>
                     <div className="movieapp-live-link">
@@ -54,7 +54,7 @@ const Home = (props) => {
 
                     <div className="brochure-card">
                         <p>
-                            <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using Javascript and Sass to design a brochure site for a gourmet cheese brand.
+                            <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using Javascript and Sass to design a brochure site for gourmet cheese.
                         </p>
                     </div>
                     <div className="brochure-live-link">

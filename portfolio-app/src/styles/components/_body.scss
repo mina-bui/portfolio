@@ -2,6 +2,7 @@
 
 body {
     background-color: $dark;
+    background-image: linear-gradient(to bottom right, $orange, purple);
     color: $light;
     font-weight: 300;
     font-size: 16px;
@@ -76,7 +77,7 @@ button {
 }
 button:hover {
     background-color: $light;
-    color: $dark;
+    color: $orange;
     font-weight: bold;
     border: 2px solid $light;
 }

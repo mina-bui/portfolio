@@ -7,7 +7,7 @@ const Capstone = () => (
 	<main>
 		<section>
 			<div className="page-info">
-				<h2>Etoile - Capstone Project</h2>
+				<h2>Etoile &#x2014; Capstone Project</h2>
 			</div>
 			<div className="page-text">
 				<div className="project-detail">

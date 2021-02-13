@@ -4,10 +4,10 @@ header {
     background-color: none;
     margin: 10px 0px 75px 0px;
     padding: 0px 25px;
+    // Flex Styling
     display: flex;
-    align-items: center;
     justify-content: space-between;
-
+    //
     a {
         text-decoration: none;
         color: $light;

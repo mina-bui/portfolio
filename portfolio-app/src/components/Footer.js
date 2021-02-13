@@ -20,27 +20,38 @@ const Footer = () => (
             <div className="social-media-column">
                 <span>
                     <Link to={'mailto:webdevmina@gmail.com'}>
-                        <img src={email} alt="Email" />
+                        <img src={email}
+                            alt="Email"
+                            title="Email" />
                     </Link>
                 </span>
                 <span>
                     <Link to={'https://www.github.com/mina-bui'}>
-                        <img src={github} alt="Github" />
+                        <img src={github}
+                            alt="Github"
+                            title="Github" />
                     </Link>
                 </span>
                 <span>
                     <Link to={'https://codepen.io/mina-bui'}>
-                        <img src={codepen} alt="Codepen" />
+                        <img src={codepen}
+                            alt="Codepen"
+                            title="Codepen" />
                     </Link>
                 </span>
                 <span>
                     <Link to={'https://www.linkedin.com/in/mina-bui/'}>
-                        <img src={linkedin} alt="Linkedin" />
+                        <img src={linkedin}
+                            alt="Linkedin"
+                            title="Linkedin" />
                     </Link>
                 </span>
                 <span>
                     <Link to={'https://twitter.com/webdevmina'}>
-                        <img src={twitter} alt="Twitter" className="twitter-icon" />
+                        <img src={twitter}
+                            alt="Twitter"
+                            title="Twitter"
+                            className="twitter-icon" />
                     </Link>
                 </span>
             </div>

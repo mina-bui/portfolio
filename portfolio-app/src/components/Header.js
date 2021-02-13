@@ -10,14 +10,7 @@ const Header = () => {
 		<header>
 			<div className="header-row header-row-01">
 				<h1><Link to={'/'}>Mina Bui</Link></h1>
-				<button className="btn-main-nav">
-					<span className="hamburger-icon">
-						<span className="line"></span>
-						<span className="line"></span>
-						<span className="line"></span>
-					</span>
-					<span className="sr-only">Menu</span>
-				</button>
+
 			</div>
 			<div className="header-row header-row-02">
 				<Nav />
