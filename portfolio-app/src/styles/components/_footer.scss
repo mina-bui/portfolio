@@ -35,6 +35,7 @@ footer {
     }
     .footer-column img:hover {
         opacity: 0.8;
+        transition-duration: 0.4s;
     }
     //
     @media only screen and (min-width: 500px) {

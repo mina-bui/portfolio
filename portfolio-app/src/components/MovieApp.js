@@ -7,6 +7,8 @@ const Projects = () => (
 	<main>
 		<section>
 			<div className="page-info">
+				<Link to={'/'}>Home</Link> &#x2013; Movie App
+				<br /><br />
 				<h2>Filmdex &#x2014; React Movie App</h2>
 			</div>
 			<div className="page-text">

@@ -7,6 +7,8 @@ const Capstone = () => (
 	<main>
 		<section>
 			<div className="page-info">
+				<Link to={'/'}>Home</Link> &#x2013; Capstone
+				<br /><br />
 				<h2>Etoile &#x2014; Capstone Project</h2>
 			</div>
 			<div className="page-text">

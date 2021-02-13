@@ -7,6 +7,8 @@ const Brochure = () => (
 	<main>
 		<section>
 			<div className="page-info">
+				<Link to={'/'}>Home</Link> &#x2013; Brochure
+				<br /><br />
 				<h2>Keep It Cheesy &#x2014; Brochure</h2>
 			</div>
 			<div className="page-text">

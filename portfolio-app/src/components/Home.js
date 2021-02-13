@@ -11,7 +11,7 @@ const Home = (props) => {
                 <div className="home-introduction">
                     <div className="page-info">
                         <h2 id="text">
-                            Web developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
+                            Full stack web developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
                         </h2>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const Home = (props) => {
                 <div className="home-project-list">
                     <div className="capstone-card">
                         <p>
-                            <Link to={'/capstone'}><b>Etoile</b></Link> &#x2014; Building a minimalist fashion store with Wordpress to improve the e-shopping experience.
+                            <Link to={'/capstone'}><b>Etoile</b></Link> &#x2014; Building a minimalist fashion store with Wordpress and PHP to improve the e-shopping experience.
                         </p>
                     </div>
                     <div className="capstone-live-link">
@@ -32,7 +32,7 @@ const Home = (props) => {
 
                     <div className="movieapp-card">
                         <p>
-                            <Link to={'/movieapp'}><b>Filmdex</b></Link> &#x2014; Combining React and an API to create a movie search web application for film buffs.
+                            <Link to={'/movieapp'}><b>Filmdex</b></Link> &#x2014; Combining React and a web API to create a movie search web application for film buffs.
                         </p>
                     </div>
                     <div className="movieapp-live-link">
@@ -54,7 +54,7 @@ const Home = (props) => {
 
                     <div className="brochure-card">
                         <p>
-                            <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using Javascript and Sass to design a brochure site for gourmet cheese.
+                            <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using JavaScript and Sass to design a brochure site for gourmet cheese.
                         </p>
                     </div>
                     <div className="brochure-live-link">

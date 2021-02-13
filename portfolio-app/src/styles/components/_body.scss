@@ -63,6 +63,7 @@ a {
 
 a:hover:not(nav a) {
     text-decoration: underline;
+    transition-duration: 0.4s;
 }
 
 // Buttons
@@ -80,4 +81,12 @@ button:hover {
     color: $orange;
     font-weight: bold;
     border: 2px solid $light;
+    transition-duration: 0.4s;
+}
+// text selection color
+::selection {
+    background: $orange; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: $orange; /* Gecko Browsers */
 }

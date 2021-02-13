@@ -7,6 +7,8 @@ const Portfolio = () => (
 	<main>
 		<section>
 			<div className="page-info">
+				<Link to={'/'}>Home</Link> &#x2013; Portfolio
+				<br /><br />
 				<h2>Portfolio</h2>
 			</div>
 			<div className="page-text">
