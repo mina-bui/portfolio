@@ -11,7 +11,7 @@ const Home = (props) => {
                 <div className="home-introduction">
                     <div className="page-info">
                         <h2 id="text">
-                            Front end developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
+                            Web developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
                         </h2>
                     </div>
                 </div>
@@ -25,8 +25,8 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="capstone-live-link">
-                        <Link to={'https://www.etoile.bcitwebdeveloper.ca/'}>
-                            <button>Link to Live</button>
+                        <Link to={'https://www.etoile.bcitwebdeveloper.ca/'} target="_blank" >
+                            <button>Live Site &#129125;</button>
                         </Link>
                     </div>
 
@@ -36,8 +36,8 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="movieapp-live-link">
-                        <Link to={'https://mbui.bcitwebdeveloper.ca/twd-movie-app/'}>
-                            <button>Link to Live</button>
+                        <Link to={'https://mbui.bcitwebdeveloper.ca/twd-movie-app/'} target="_blank" >
+                            <button>Live Site &#129125;</button>
                         </Link>
                     </div>
 
@@ -47,8 +47,8 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="portfolio-live-link">
-                        <Link to={'http://www.mbui.bcitwebdeveloper.ca'}>
-                            <button>Link to Live</button>
+                        <Link to={'http://www.mbui.bcitwebdeveloper.ca'} target="_blank" >
+                            <button>Live Site &#129125;</button>
                         </Link>
                     </div>
 
@@ -58,8 +58,8 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="brochure-live-link">
-                        <Link to={'https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html'}>
-                            <button>Link to Live</button>
+                        <Link to={'https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html'} target="_blank" >
+                            <button>Live Site &#129125;</button>
                         </Link>
                     </div>
                 </div>

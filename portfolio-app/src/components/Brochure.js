@@ -29,8 +29,8 @@ const Brochure = () => (
                     </p>
 				</div>
 				<div className="project-detail">
-					<Link to={'https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html'}>
-						<button>Link to Live</button>
+					<Link to={'https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html'} target="_blank" >
+						<button>Live Site &#129125;</button>
 					</Link>
 				</div>
 			</div>

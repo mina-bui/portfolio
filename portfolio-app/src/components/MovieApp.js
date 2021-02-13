@@ -29,8 +29,8 @@ const Projects = () => (
                     </p>
 				</div>
 				<div className="project-detail">
-					<Link to={'https://mbui.bcitwebdeveloper.ca/twd-movie-app/'}>
-						<button>Link to Live</button>
+					<Link to={'https://mbui.bcitwebdeveloper.ca/twd-movie-app/'} target="_blank" >
+						<button>Live Site &#129125;</button>
 					</Link>
 				</div>
 			</div>

@@ -22,28 +22,32 @@ const Footer = () => (
                     <Link to={'mailto:webdevmina@gmail.com'}>
                         <img src={email}
                             alt="Email"
-                            title="Email" />
+                            title="Email"
+                            target="_blank" />
                     </Link>
                 </span>
                 <span>
                     <Link to={'https://www.github.com/mina-bui'}>
                         <img src={github}
                             alt="Github"
-                            title="Github" />
+                            title="Github"
+                            target="_blank" />
                     </Link>
                 </span>
                 <span>
                     <Link to={'https://codepen.io/mina-bui'}>
                         <img src={codepen}
                             alt="Codepen"
-                            title="Codepen" />
+                            title="Codepen"
+                            target="_blank" />
                     </Link>
                 </span>
                 <span>
                     <Link to={'https://www.linkedin.com/in/mina-bui/'}>
                         <img src={linkedin}
                             alt="Linkedin"
-                            title="Linkedin" />
+                            title="Linkedin"
+                            target="_blank" />
                     </Link>
                 </span>
                 <span>
@@ -51,7 +55,8 @@ const Footer = () => (
                         <img src={twitter}
                             alt="Twitter"
                             title="Twitter"
-                            className="twitter-icon" />
+                            className="twitter-icon"
+                            target="_blank" />
                     </Link>
                 </span>
             </div>

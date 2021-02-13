@@ -29,8 +29,8 @@ const Capstone = () => (
                     </p>
 				</div>
 				<div className="project-detail">
-					<Link to={'https://www.etoile.bcitwebdeveloper.ca/'}>
-						<button>Link to Live</button>
+					<Link to={'https://www.etoile.bcitwebdeveloper.ca/'} target="_blank" >
+						<button>Live Site &#129125;</button>
 					</Link>
 				</div>
 			</div>

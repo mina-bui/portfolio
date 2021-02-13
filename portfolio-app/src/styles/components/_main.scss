@@ -39,9 +39,28 @@ main {
     column-gap: 50px;
     display: grid;
     grid-template-areas:
-        "capstone movieapp portfolio brochure"
-        "capstone-link movieapp-link portfolio-link brochure-link";
+        "capstone"
+        "capstone-link"
+        "movieapp"
+        "movieapp-link"
+        "portfolio"
+        "portfolio-link"
+        "brochure"
+        "brochure-link";
     p {
         font-size: 1.2em;
+        line-height: 24px;
+    }
+    @media only screen and (min-width: 566px) and (max-width: 1082px) {
+        grid-template-areas:
+            "capstone movieapp"
+            "capstone-link movieapp-link"
+            "portfolio brochure"
+            "portfolio-link brochure-link";
+    }
+    @media only screen and (min-width: 1082px) {
+        grid-template-areas:
+            "capstone movieapp portfolio brochure"
+            "capstone-link movieapp-link portfolio-link brochure-link";
     }
 }

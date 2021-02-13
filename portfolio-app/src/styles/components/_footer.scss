@@ -33,6 +33,9 @@ footer {
         width: 25px;
         height: 100%;
     }
+    .footer-column img:hover {
+        opacity: 0.8;
+    }
     //
     @media only screen and (min-width: 500px) {
         display: flex;
