@@ -30,6 +30,11 @@ const Portfolio = () => (
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
                     </p>
 				</div>
+				<div className="project-contact-me">
+					<p>
+						Questions about the process? <Link to={'mailto:webdevmina@gmail.com'} title="webdevmina@gmail.com" target="_blank">Let's talk. &#129125;</Link>
+					</p>
+				</div>
 			</div>
 		</section>
 	</main>

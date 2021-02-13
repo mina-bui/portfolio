@@ -35,6 +35,11 @@ const Capstone = () => (
 						<button>Live Site &#129125;</button>
 					</Link>
 				</div>
+				<div className="project-contact-me">
+					<p>
+						Questions about the process? <Link to={'mailto:webdevmina@gmail.com'} title="webdevmina@gmail.com" target="_blank">Let's talk. &#129125;</Link>
+					</p>
+				</div>
 			</div>
 		</section>
 	</main>
