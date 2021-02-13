@@ -1,28 +1,15 @@
 // Header
 
 header {
-    background-color: $orange;
-    margin: 10px 0px 100px 0px;
-
-    h1 {
-        @include flatten;
-    }
+    background-color: none;
+    margin: 10px 0px 75px 0px;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     a {
         text-decoration: none;
         color: $light;
-    }
-
-    .header-row-01 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: em(16);
-    }
-
-    @include mq(em(600)) {
-        .header-row-01 {
-            padding: em(20);
-        }
     }
 }

@@ -4,14 +4,41 @@ main {
     padding: $section-padding;
 }
 
+.capstone-card {
+    grid-area: capstone;
+    margin-top: 50px;
+}
+.movieapp-card {
+    grid-area: movieapp;
+    margin-top: 50px;
+}
+.portfolio-card {
+    grid-area: portfolio;
+    margin-top: 50px;
+}
+.brochure-card {
+    grid-area: brochure;
+    margin-top: 50px;
+}
+.capstone-live-link {
+    grid-area: capstone-link;
+}
+.movieapp-live-link {
+    grid-area: movieapp-link;
+}
+.portfolio-live-link {
+    grid-area: portfolio-link;
+}
+.brochure-live-link {
+    grid-area: brochure-link;
+}
 .home-project-list {
-    margin: 150px 0px;
-}
-
-.page-text {
-    margin: 25px 0px;
-}
-
-.project-card {
-    margin: 50px 0px;
+    column-gap: 50px;
+    display: grid;
+    grid-template-areas:
+        "capstone movieapp portfolio brochure"
+        "capstone-link movieapp-link portfolio-link brochure-link";
+    p {
+        font-size: 1.2em;
+    }
 }

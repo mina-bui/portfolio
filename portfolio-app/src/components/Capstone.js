@@ -1,11 +1,13 @@
 // Capstone
 
+import { Link } from 'react-router-dom';
+
 const Capstone = () => (
 
 	<main>
 		<section>
 			<div className="page-info">
-				<h2>Capstone Project</h2>
+				<h2>Etoile - Capstone Project</h2>
 			</div>
 			<div className="page-text">
 				<div className="project-detail">
@@ -27,10 +29,9 @@ const Capstone = () => (
                     </p>
 				</div>
 				<div className="project-detail">
-					<h3>Link to Live Site</h3>
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
-                    </p>
+					<Link to={'https://www.etoile.bcitwebdeveloper.ca/'}>
+						<button>Link to Live</button>
+					</Link>
 				</div>
 			</div>
 		</section>

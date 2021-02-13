@@ -10,53 +10,57 @@ const Home = (props) => {
             <section>
                 <div className="home-introduction">
                     <div className="page-info">
-                        <h2>Hi, I'm Mina Bui.</h2>
-                        <h3>Front End Developer and Web Designer</h3>
-                        <h4>Based in Vancouver, BC</h4>
-                    </div>
-                    <div className="page-text">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
-                        </p>
-                        <Link to={'/about'}><button>More About Me</button></Link>
+                        <h2 id="text">
+                            Front end developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
+                        </h2>
                     </div>
                 </div>
+            </section>
+
+            <section>
                 <div className="home-project-list">
-                    <div className="page-info">
-                        <h2>My Projects</h2>
+                    <div className="capstone-card">
+                        <p>
+                            <Link to={'/capstone'}><b>Etoile</b></Link> &#x2014; Building a minimalist fashion store with Wordpress to improve the e-shopping experience.
+                        </p>
                     </div>
-                    <div className="page-text">
-                        <div className="project-card">
-                            <Link to={'/capstone'}><h3>Capstone Project</h3></Link>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
-                            </p>
-                            <Link to={'/capstone'}><button>More Info</button></Link>
+                    <div className="capstone-live-link">
+                        <Link to={'https://www.etoile.bcitwebdeveloper.ca/'}>
+                            <button>Link to Live</button>
+                        </Link>
+                    </div>
 
-                        </div>
-                        <div className="project-card">
-                            <Link to={'/movieapp'}><h3>React Movie App</h3></Link>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
-                            </p>
-                            <Link to={'/movieapp'}><button>More Info</button></Link>
+                    <div className="movieapp-card">
+                        <p>
+                            <Link to={'/movieapp'}><b>Filmdex</b></Link> &#x2014; Combining React and an API to create a movie database web application for film buffs.
+                        </p>
+                    </div>
+                    <div className="movieapp-live-link">
+                        <Link to={'https://mbui.bcitwebdeveloper.ca/twd-movie-app/'}>
+                            <button>Link to Live</button>
+                        </Link>
+                    </div>
 
-                        </div>
-                        <div className="project-card">
-                            <Link to={'/portfolio'}><h3>React Portfolio</h3></Link>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
-                            </p>
-                            <Link to={'/portfolio'}><button>More Info</button></Link>
+                    <div className="portfolio-card">
+                        <p>
+                            <Link to={'/portfolio'}><b>Portfolio</b></Link> &#x2014; Creating my portfolio site with React and Sass to showcase my projects and experience.
+                        </p>
+                    </div>
+                    <div className="portfolio-live-link">
+                        <Link to={'http://www.mbui.bcitwebdeveloper.ca'}>
+                            <button>Link to Live</button>
+                        </Link>
+                    </div>
 
-                        </div>
-                        <div className="project-card">
-                            <Link to={'/brochure'}><h3>Business Brochure</h3></Link>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
-                            </p>
-                            <Link to={'/brochure'}><button>More Info</button></Link>
-                        </div>
+                    <div className="brochure-card">
+                        <p>
+                            <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using Javascript and Sass to design a brochure site for a gourmet cheese brand.
+                        </p>
+                    </div>
+                    <div className="brochure-live-link">
+                        <Link to={'https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html'}>
+                            <button>Link to Live</button>
+                        </Link>
                     </div>
                 </div>
             </section>

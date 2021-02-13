@@ -1,1 +1,17 @@
 // About
+
+.about-column-one {
+    grid-area: about-text;
+}
+.about-column-two {
+    grid-area: about-image;
+}
+.about-wrapper {
+    display: grid;
+    grid-template-areas: "about-text about-image";
+}
+.headshot {
+    width: 300px;
+    height: 100%;
+    opacity: 0.75;
+}
