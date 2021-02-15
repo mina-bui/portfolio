@@ -29,13 +29,14 @@ h1 {
 h2 {
     font-size: 3em;
     line-height: 54px;
-    margin-bottom: 0.9em;
+    margin-bottom: 0.6em;
 }
 
 h3 {
     font-family: $bodyFont;
     font-size: 2.25em;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.4em;
+    margin-top: 1.5em;
     font-weight: bold;
 }
 
@@ -49,8 +50,8 @@ h4 {
 // Paragraphs, Lists, Links
 p,
 li {
-    font-size: 1.45em;
-    line-height: 29px;
+    font-size: 1.4em;
+    line-height: 25px;
 }
 nav li {
     font-size: 1.2em;

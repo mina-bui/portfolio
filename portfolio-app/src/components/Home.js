@@ -11,7 +11,7 @@ const Home = (props) => {
                 <div className="home-introduction">
                     <div className="page-info">
                         <h2 id="text">
-                            Full stack web developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
+                            Front end web developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
                         </h2>
                     </div>
                 </div>

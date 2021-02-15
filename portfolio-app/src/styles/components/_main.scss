@@ -35,6 +35,12 @@ main {
     grid-area: brochure-link;
 }
 // Grid Styling for Project List
+.home-introduction {
+    h2 {
+        font-size: 2em;
+        line-height: 34px;
+    }
+}
 .home-project-list {
     column-gap: 50px;
     display: grid;
@@ -51,22 +57,42 @@ main {
         font-size: 1.2em;
         line-height: 24px;
     }
-    @media only screen and (min-width: 566px) and (max-width: 1082px) {
-        grid-template-areas:
-            "capstone movieapp"
-            "capstone-link movieapp-link"
-            "portfolio brochure"
-            "portfolio-link brochure-link";
-    }
-    @media only screen and (min-width: 1082px) {
-        grid-template-areas:
-            "capstone movieapp portfolio brochure"
-            "capstone-link movieapp-link portfolio-link brochure-link";
-    }
 }
 
 // Contact me message at the end of every project
 .project-contact-me {
     text-align: center;
     margin-top: 25px;
+}
+
+@media only screen and (min-width: 606px) and (max-width: 1082px) {
+    .home-project-list {
+        grid-template-areas:
+            "capstone movieapp"
+            "capstone-link movieapp-link"
+            "portfolio brochure"
+            "portfolio-link brochure-link";
+    }
+
+    .home-introduction {
+        h2 {
+            font-size: 2.25em;
+            line-height: 40px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1082px) {
+    .home-project-list {
+        grid-template-areas:
+            "capstone movieapp portfolio brochure"
+            "capstone-link movieapp-link portfolio-link brochure-link";
+    }
+    .home-introduction {
+        h2 {
+            font-size: 3em;
+            line-height: 54px;
+            margin-bottom: 0.6em;
+        }
+    }
 }

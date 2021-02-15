@@ -22,17 +22,24 @@
     transform: scale(1.05);
     transition-duration: 0.4s;
 }
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 880px) {
     .about-wrapper {
         display: grid;
         grid-template-areas:
             "about-image"
             "about-text";
+        p {
+            font-size: 1.2em;
+        }
+        h2 {
+            font-size: 2em;
+        }
     }
     .headshot-wrapper {
         text-align: center;
     }
     .headshot {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        width: 200px;
     }
 }
