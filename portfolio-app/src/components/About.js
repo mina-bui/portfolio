@@ -11,11 +11,11 @@ const About = () => (
 				<Link to={'/'}>Home</Link> &#x2013; About
 				<br /><br />
 				<div className="page-info">
-					<h2>Hey there,</h2>
+					<h2>Hey, I'm Mina.</h2>
 				</div>
 				<div className="page-text">
 					<p>
-						I'm Mina, a front end web developer and designer from Vancouver, BC. I build responsive user interfaces, interactive web applications, and minimalist site designs.
+						I'm a front end web developer and designer from Vancouver, BC. I build responsive user interfaces, interactive web applications, and minimalist site designs.
                 </p>
 					<p>
 						I was previously a student in BCIT's Front End Developer program, where I developed a wide range of websites from scratch, from high-end clothing stores to tourism sites.
