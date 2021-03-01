@@ -3,11 +3,11 @@
 import { makeYear } from '../utilities/dateMaker';
 import { Link } from 'react-router-dom';
 // importing social media icon images
-import email from '../images/email-icon.png';
-import github from '../images/github-icon.png';
-import codepen from '../images/codepen-icon.png';
-import linkedin from '../images/linkedin-icon.png';
-import twitter from '../images/twitter-icon.png';
+import email from '../images/social-media/email-icon.png';
+import github from '../images/social-media/github-icon.png';
+import codepen from '../images/social-media/codepen-icon.png';
+import linkedin from '../images/social-media/linkedin-icon.png';
+import twitter from '../images/social-media/twitter-icon.png';
 
 
 const Footer = () => (

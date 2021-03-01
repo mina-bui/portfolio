@@ -1,7 +1,7 @@
 // About
 
 import { Link } from 'react-router-dom';
-import headshot from '../images/headshot.png';
+import headshot from '../images/social-media/headshot.png';
 
 const About = () => (
 

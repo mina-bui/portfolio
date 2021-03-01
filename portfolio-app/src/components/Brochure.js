@@ -5,10 +5,10 @@ import React from 'react';
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Import screenshots of website
-import HomeImage from '../images/brochure-home-desktop.png';
-import ProcessImage from '../images/brochure-process-desktop.png';
-import AboutImage from '../images/brochure-about-desktop.png';
-import ContactImage from '../images/brochure-contact-desktop.png';
+import HomeImage from '../images/brochure-desktop/brochure-home-desktop.png';
+import ProcessImage from '../images/brochure-desktop/brochure-process-desktop.png';
+import AboutImage from '../images/brochure-desktop/brochure-about-desktop.png';
+import ContactImage from '../images/brochure-desktop/brochure-contact-desktop.png';
 // Import ReactPlayer to show video of site walkthrough
 import ReactPlayer from 'react-player/youtube';
 

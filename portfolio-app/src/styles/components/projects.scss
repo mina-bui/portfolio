@@ -34,6 +34,16 @@
         margin: 10px 10px;
     }
 }
+.project-detail-gallery-capstone {
+    text-align: center;
+    img {
+        object-fit: cover;
+        object-position: 100% 0;
+        height: 375px;
+        width: auto;
+        margin: 10px 10px;
+    }
+}
 
 // Video
 video {

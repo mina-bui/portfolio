@@ -5,10 +5,10 @@ import React from 'react';
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Import screenshots of website
-import SingleImage from '../images/filmdex-singlemovie-desktop.png';
-import FavouritesImage from '../images/filmdex-favourites-desktop.png';
-import SearchImage from '../images/filmdex-search-desktop.png';
-import AboutImage from '../images/filmdex-about-desktop.png';
+import SingleImage from '../images/filmdex-desktop/filmdex-singlemovie-desktop.png';
+import FavouritesImage from '../images/filmdex-desktop/filmdex-favourites-desktop.png';
+import SearchImage from '../images/filmdex-desktop/filmdex-search-desktop.png';
+import AboutImage from '../images/filmdex-desktop/filmdex-about-desktop.png';
 // Import ReactPlayer to show video of site walkthrough
 import ReactPlayer from 'react-player/youtube';
 
