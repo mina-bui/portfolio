@@ -36,6 +36,14 @@ const Portfolio = () => (
 						In the future, alongside adding more projects to my portfolio, I hope to add more interactive elements to my site, such a small JavaScript game and more animations.
 					</p>
 				</div>
+				<div className="project-detail">
+					<h3>Links</h3>
+					<div classname="project-detail-links">
+						<a href="https://www.github.com/mina-bui/portfolio" target="_blank" >
+							<button className="project-detail-links-buttons">Github &#129125;</button>
+						</a>
+					</div>
+				</div>
 				<div className="project-contact-me">
 					<p>
 						Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank">Let's talk. &#129125;</a>					</p>

@@ -128,9 +128,16 @@ const Projects = () => (
                     </p>
 				</div>
 				<div className="project-detail">
-					<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" >
-						<button>Live Site &#129125;</button>
-					</a>
+					<h3>Links</h3>
+					<div classname="project-detail-links">
+						<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" >
+							<button className="project-detail-links-buttons">Live Site &#129125;</button>
+						</a>
+
+						<a href="https://www.github.com/mina-bui/twd-movie-app-final-version" target="_blank" >
+							<button className="project-detail-links-buttons">Github &#129125;</button>
+						</a>
+					</div>
 				</div>
 				<div className="project-contact-me">
 					<p>
