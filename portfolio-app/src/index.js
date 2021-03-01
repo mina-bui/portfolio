@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import './styles/styles.scss';
 import AppRouter from './routers/AppRouter';
 import { OW_API_KEY, OC_API_KEY } from './globals/variables';
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 if (OW_API_KEY === '&appid=replace-this-string-with-your-api-key' || OC_API_KEY === '&key=replace-this-string-with-your-api-key') {
 
@@ -14,7 +15,9 @@ if (OW_API_KEY === '&appid=replace-this-string-with-your-api-key' || OC_API_KEY 
 
     ReactDOM.render(
         <React.StrictMode>
-            <AppRouter />
+            <SimpleReactLightbox>
+                <AppRouter />
+            </SimpleReactLightbox>
         </React.StrictMode>,
         document.getElementById('root')
     );

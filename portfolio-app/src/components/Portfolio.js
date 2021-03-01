@@ -15,20 +15,26 @@ const Portfolio = () => (
 				<div className="project-detail">
 					<h3>Project Overview</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
+						I worked alone to produce my portfolio site, whose main goal is to showcase the projects I've designed and developed during my time in the BCIT Front End Developer program. The website was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then adding in the HTML, Sass, and JS files. I wanted to create an enjoyable, seamless user experience where I could show my love for design and coding.
                     </p>
+					<ul className="project-technologies">
+						<li>JavaScript</li>
+						<li>ReactJS</li>
+						<li>Sass</li>
+						<li>HTML5</li>
+						<li>GitHub</li>
+					</ul>
 				</div>
-				<div className="project-detail">
-					<h3>Research and Planning</h3>
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
-                    </p>
-				</div>
+
+
 				<div className="project-detail">
 					<h3>Biggest Challenges</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas natus magni dicta, fugiat eaque error sint velit! Minus accusamus quisquam nam possimus! Nostrum hic totam temporibus laudantium dolorem aspernatur doloremque?
+						The biggest challenge was figuring out which parts in each project I wanted to showcase. For instance, upon dozens and dozens of pages of code, which small code snippets stuck out to me? How would I show this in an informative, entertaining but digestable format? I decided ultimately to focus on providing more visual elements, such as code snippets, screenshots, and videos, to accompany snippets of text.
                     </p>
+					<p>
+						In the future, alongside adding more projects to my portfolio, I hope to add more interactive elements to my site, such a small JavaScript game and more animations.
+					</p>
 				</div>
 				<div className="project-contact-me">
 					<p>

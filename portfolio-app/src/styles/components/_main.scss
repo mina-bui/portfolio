@@ -59,6 +59,27 @@ main {
     }
 }
 
+// Project Technologies List
+.project-technologies {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+        margin: 10px 10px;
+        padding: 5px 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
+.project-technologies li:hover {
+    color: $orange;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
 // Contact me message at the end of every project
 .project-contact-me {
     text-align: center;

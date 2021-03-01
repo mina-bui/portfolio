@@ -1,0 +1,32 @@
+// Project Video
+.project-detail-video {
+    display: flex;
+    justify-content: center;
+}
+
+// Project Gallery
+.project-detail-gallery {
+    text-align: center;
+    img {
+        height: 100%;
+        width: 350px;
+        margin: 10px 10px;
+    }
+}
+
+// Video
+video {
+    width: 320px;
+    height: 240px;
+}
+
+// Codepen
+iframe {
+    width: 100%;
+}
+code {
+    background-color: $orange;
+    color: white;
+    font-size: 0.8em;
+    padding: 2px 6px;
+}

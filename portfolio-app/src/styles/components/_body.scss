@@ -86,8 +86,8 @@ button:hover {
 }
 // text selection color
 ::selection {
-    background: $orange; /* WebKit/Blink Browsers */
+    background: purple; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-    background: $orange; /* Gecko Browsers */
+    background: purple; /* Gecko Browsers */
 }
