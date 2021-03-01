@@ -31,13 +31,13 @@ const Brochure = () => (
                     </p>
 				</div>
 				<div className="project-detail">
-					<Link to={'https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html'} target="_blank" >
+					<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" >
 						<button>Live Site &#129125;</button>
-					</Link>
+					</a>
 				</div>
 				<div className="project-contact-me">
 					<p>
-						Questions about the process? <Link to={'mailto:webdevmina@gmail.com'} title="webdevmina@gmail.com" target="_blank">Let's talk. &#129125;</Link>
+						Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank">Let's talk. &#129125;</a>
 					</p>
 				</div>
 			</div>

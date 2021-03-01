@@ -24,7 +24,7 @@ const About = () => (
 						Growing up surrounded by BC's landscape sparked an interest in sustainability, so I went to study  Geography &#x26; GIS at SFU, where I built reports and maps using spatial data. (I think this is what led me to web design).
                 </p>
 					<p>
-						Today, I'm available for new challenges, so <Link to={'mailto:webdevmina@gmail.com'} title="webdevmina@gmail.com" target="_blank">shoot me an email &#129125;</Link> and let's talk about it. Cheers!
+						Today, I'm available for new challenges, so <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank">shoot me an email at hello@minabui.com &#129125;</a> and let's talk about it. Cheers!
                 </p>
 				</div>
 			</div>

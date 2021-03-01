@@ -19,45 +19,45 @@ const Footer = () => (
         <div className="footer-column">
             <div className="social-media-column">
                 <span>
-                    <Link to={'mailto:webdevmina@gmail.com'}>
+                    <a href="mailto:hello@minabui.com">
                         <img src={email}
                             alt="Email"
                             title="Email"
                             target="_blank" />
-                    </Link>
+                    </a>
                 </span>
                 <span>
-                    <Link to={'https://www.github.com/mina-bui'}>
+                    <a href="https://www.github.com/mina-bui">
                         <img src={github}
                             alt="Github"
                             title="Github"
                             target="_blank" />
-                    </Link>
+                    </a>
                 </span>
                 <span>
-                    <Link to={'https://codepen.io/mina-bui'}>
+                    <a href="https://codepen.io/mina-bui">
                         <img src={codepen}
                             alt="Codepen"
                             title="Codepen"
                             target="_blank" />
-                    </Link>
+                    </a>
                 </span>
                 <span>
-                    <Link to={'https://www.linkedin.com/in/mina-bui/'}>
+                    <a href="https://www.linkedin.com/in/mina-bui/">
                         <img src={linkedin}
                             alt="Linkedin"
                             title="Linkedin"
                             target="_blank" />
-                    </Link>
+                    </a>
                 </span>
                 <span>
-                    <Link to={'https://twitter.com/webdevmina'}>
+                    <a href="https://twitter.com/webdevmina">
                         <img src={twitter}
                             alt="Twitter"
                             title="Twitter"
                             className="twitter-icon"
                             target="_blank" />
-                    </Link>
+                    </a>
                 </span>
             </div>
         </div>

@@ -25,9 +25,9 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="capstone-live-link">
-                        <Link to={'https://www.etoile.bcitwebdeveloper.ca/'} target="_blank" >
+                        <a href="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" >
                             <button>Live Site &#129125;</button>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className="movieapp-card">
@@ -36,9 +36,9 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="movieapp-live-link">
-                        <Link to={'https://mbui.bcitwebdeveloper.ca/twd-movie-app/'} target="_blank" >
+                        <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" >
                             <button>Live Site &#129125;</button>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className="portfolio-card">
@@ -47,9 +47,9 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="portfolio-live-link">
-                        <Link to={'http://www.mbui.bcitwebdeveloper.ca'} target="_blank" >
+                        <a href="https://www.minabui.com/" target="_blank" >
                             <button>Live Site &#129125;</button>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className="brochure-card">
@@ -58,9 +58,9 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="brochure-live-link">
-                        <Link to={'https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html'} target="_blank" >
+                        <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" >
                             <button>Live Site &#129125;</button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
