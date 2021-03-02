@@ -1,4 +1,7 @@
 // Project Title
+.project-detail {
+    margin: 100px 0px;
+}
 h2.project-detail-subtitle {
     font-size: 1.5em;
     line-height: 20px;
@@ -20,6 +23,13 @@ h2.project-detail-subtitle {
         font-family: $bodyFont;
     }
 }
+// Hide certain elements on mobile
+@media only screen and (max-width: 606px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+}
+// Show only certain elements on mobile
 @media only screen and (min-width: 606px) {
     .mobile {
         display: none;
@@ -56,8 +66,13 @@ h2.project-detail-subtitle {
     img {
         height: 100%;
         width: 500px;
-        margin: 10px 0px;
+        margin: 50px 0px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
     }
+}
+#etoile-ia-background {
+    background-color: white;
+    padding: 25px 25px;
 }
 .project-detail-gallery {
     text-align: center;
@@ -65,14 +80,66 @@ h2.project-detail-subtitle {
         height: 100%;
         width: 350px;
         margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
     }
 }
-.project-detail-gallery-capstone {
+
+// Brochure high fidelity mockups
+.project-detail-gallery-brochure {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    img {
+        width: 350px;
+        margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    }
+    @media only screen and (max-width: 606px) {
+        display: block;
+        text-align: center;
+    }
+}
+.project-detail-gallery-movie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    img {
+        width: 350px;
+        margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    }
+    @media only screen and (max-width: 606px) {
+        display: block;
+        text-align: center;
+    }
+}
+// Brochure wireframes
+.project-detail-wireframe-brochure {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin: 50px 0px;
     img {
         object-fit: cover;
         object-position: 100% 0;
-        height: 375px;
+        height: 500px;
+        width: auto;
+        margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+        @media only screen and (max-width: 606px) {
+            height: 300px;
+        }
+    }
+}
+// Capstone high fidelity mockups and wireframes
+.project-detail-gallery-capstone {
+    text-align: center;
+    margin: 50px 0px;
+    img {
+        object-fit: cover;
+        object-position: 100% 0;
+        height: 300px;
         width: auto;
         margin: 10px 10px;
     }
@@ -87,6 +154,8 @@ video {
 // Codepen
 iframe {
     width: 100%;
+    box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    margin: 50px 0px;
 }
 code {
     background-color: $orange;

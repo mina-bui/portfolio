@@ -5,6 +5,17 @@ import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
+// Mockups
+import HomeMockup from '../images/filmdex-desktop/filmdex-home-desktop-mockup.png';
+import SingleMockup from '../images/filmdex-desktop/filmdex-singlemovie-desktop-mockup.jpg';
+import FavouritesMockup from '../images/filmdex-desktop/filmdex-favourites-desktop-mockup.png';
+import AboutMockup from '../images/filmdex-desktop/filmdex-about-desktop-mockup.jpg';
+// Mobile Mockups
+import HomeMockupMob from '../images/filmdex-desktop/filmdex-home-mobile-mockup.png';
+import SingleMockupMob from '../images/filmdex-desktop/filmdex-singlemovie-mobile-mockup.png';
+import AboutMockupMob from '../images/filmdex-desktop/filmdex-about-mobile-mockup.png';
+import FavouritesMockupMob from '../images/filmdex-desktop/filmdex-favourites-mobile-mockup.png';
+
 // Import screenshots of website
 import SingleImage from '../images/filmdex-desktop/filmdex-singlemovie-desktop.png';
 import FavouritesImage from '../images/filmdex-desktop/filmdex-favourites-desktop.png';
@@ -103,10 +114,77 @@ const Projects = () => (
 					</div>
 					<div className="project-detail">
 						<h3 className="project-detail-title">Design and Planning</h3>
+						{/* Desktop Mockup */}
+						<div className="project-detail-gallery-movie">
+							<SRLWrapper options={options}>
+								<a href={HomeMockup}>
+									<img src={HomeMockup}
+										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+								</a>
+							</SRLWrapper>
+							<SRLWrapper options={options}>
+								<a href={SingleMockup}>
+									<img src={SingleMockup}
+										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+								</a>
+							</SRLWrapper>
+							<SRLWrapper options={options}>
+								<a href={FavouritesMockup}>
+									<img src={FavouritesMockup}
+										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+								</a>
+							</SRLWrapper>
+							<SRLWrapper options={options}>
+								<a href={AboutMockup}>
+									<img src={AboutMockup}
+										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+								</a>
+							</SRLWrapper>
+						</div>
+						<div className="project-detail-gallery-brochure">
+
+						</div>
 						<p>
-							To be continued...
+							We began by designing our high fidelity mockups through Adobe Photoshop. Users would be able to sort movies by Most Popular, Top Rated, Now Playing, and Upcoming. They would also be able to click on an individual movie for more information. There would also be a favorites button.
+						</p>
+						{/* Mobile Mockup */}
+						<div className="project-detail-gallery">
+							<div className="project-detail-wireframe-brochure">
+								<SRLWrapper options={options}>
+									<a href={HomeMockupMob}>
+										<img src={HomeMockupMob}
+											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+									</a>
+								</SRLWrapper>
+							</div>
+						</div>
+						<div className="project-detail-gallery">
+							<div className="project-detail-wireframe-brochure">
+								<SRLWrapper options={options}>
+									<a href={SingleMockupMob}>
+										<img src={SingleMockupMob}
+											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+									</a>
+								</SRLWrapper>
+								<SRLWrapper options={options}>
+									<a href={FavouritesMockupMob}>
+										<img src={FavouritesMockupMob}
+											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+									</a>
+								</SRLWrapper>
+								<SRLWrapper options={options}>
+									<a href={AboutMockupMob}>
+										<img src={AboutMockupMob}
+											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+									</a>
+								</SRLWrapper>
+							</div>
+						</div>
+						<p>
+							We also wanted the mobile version of our web application to be as easy to read and intuitive as possible. We initially decided on a one column grid, but later switched to include two movies per row. We initially decided on a touch scrollable section for the sorting buttons, but decided to scrap this idea in favor for a better UI design.
 						</p>
 					</div>
+					{/* Site Screenshots */}
 					<div className="project-detail">
 						<h3 className="project-detail-title">Site Screenshots</h3>
 						<div className="project-detail-gallery">
@@ -158,7 +236,7 @@ const Projects = () => (
 					</div>
 					<div className="project-contact-me">
 						<p>
-							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" >Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 					</div>
 				</div>

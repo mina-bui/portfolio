@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Import screenshots of website
+// IA
+import CapIA from '../images/capstone-desktop/capstone-ia.png';
 // Mockup
 import CapHomeMockup from '../images/capstone-mockup/capstone-home-mockup.png';
 // Desktop
@@ -105,6 +107,19 @@ const Capstone = () => (
 					</div>
 					<div className="project-detail">
 						<h3 className="project-detail-title">Design and Planning</h3>
+						<div className="project-design-planning-gallery">
+							<SRLWrapper options={options}>
+								<a href={CapIA}>
+									<img src={CapIA}
+										alt="High fidelity home page mockup."
+										id="etoile-ia-background" />
+								</a>
+							</SRLWrapper>
+						</div>
+						<p>
+							One of the most important steps in the planning process was to create an information architecture map to ensure we were creating the correct PHP files. Given the nature of our products, we decided to keep the product categories simple. We later decided to add gift cards, however.
+						</p>
+
 						<div className="project-detail-gallery">
 							<div className="project-detail-gallery-capstone">
 								<SRLWrapper options={options}>
@@ -116,11 +131,13 @@ const Capstone = () => (
 
 									<a href={CapShopImage}>
 										<img src={CapShopImage}
-											alt="High fidelity all products shop page wireframe." />
+											alt="High fidelity all products shop page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 									<a href={CapShopImageMob}>
 										<img src={CapShopImageMob}
-											alt="High fidelity all products shop page wireframe." />
+											alt="High fidelity all products shop page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 
 									<a href={CapProductImage}>
@@ -129,38 +146,47 @@ const Capstone = () => (
 									</a>
 									<a href={CapProductImageMob}>
 										<img src={CapProductImageMob}
-											alt="High fidelity single product page wireframe." />
+											alt="High fidelity single product page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 
 									<a href={CapAboutImage}>
 										<img src={CapAboutImage}
-											alt="High fidelity about us page wireframe." />
+											alt="High fidelity about us page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 									<a href={CapAboutImageMob}>
 										<img src={CapAboutImageMob}
-											alt="High fidelity about us page wireframe." />
+											alt="High fidelity about us page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 
 									<a href={CapContactImage}>
 										<img src={CapContactImage}
-											alt="High fidelity contact us page wireframe." />
+											alt="High fidelity contact us page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 									<a href={CapContactImageMob}>
 										<img src={CapContactImageMob}
-											alt="High fidelity contact us page wireframe." />
+											alt="High fidelity contact us page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 									<a href={CapInfoImage}>
 										<img src={CapInfoImage}
-											alt="High fidelity customer service page wireframe." />
+											alt="High fidelity customer service page wireframe."
+											className="hidden-on-mobile" />
 									</a>
 								</SRLWrapper>
 							</div>
 						</div>
+						<p>
+							We worked together as a team to remotely design high fidelity wireframes and mockups using Figma and Zoom. This turned out to be an excellent decision, as it allowed us to discuss our desired changes and additions in live time. We also included the plugins we desired, such as an Instagram feed and a product carousel.
+						</p>
 					</div>
 					<div className="project-detail">
 						<h3 className="project-detail-title">Site Screenshots</h3>
 						<p>
-							To be continued...
+							This project is a work in process and will be completed in mid March. Stay tuned for updates!
 						</p>
 					</div>
 					<div className="project-detail">
@@ -186,7 +212,7 @@ const Capstone = () => (
 					</div>
 					<div className="project-contact-me">
 						<p>
-							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" >Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 					</div>
 				</div>

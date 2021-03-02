@@ -6,6 +6,15 @@ import { Link } from "react-router-dom";
 // Import images for Design and Planning
 import BrochurePalette from '../images/brochure-desktop/brochure-adobe-color.jpeg';
 import BrochureContentPlan from '../images/brochure-desktop/brochure-content-plan.png';
+// Mockups
+import BrochureAboutMockup from '../images/brochure-desktop/brochure-about-desktop-mockup.png';
+import BrochureContactMockup from '../images/brochure-desktop/brochure-contact-desktop-mockup.png';
+import BrochureHomeMockup from '../images/brochure-desktop/brochure-home-desktop-mockup.png';
+// Wireframes
+import BrochureProcessWireframe from '../images/brochure-desktop/brochure-process-desktop-wireframe.png';
+import BrochureAboutWireframe from '../images/brochure-desktop/brochure-about-desktop-wireframe.png';
+import BrochureAboutWireframeMob from '../images/brochure-desktop/brochure-about-mobile-wireframe.png';
+
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Import screenshots of website
@@ -98,11 +107,14 @@ const Brochure = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Walkthrough</h3>
 						<div className="project-detail-video">
-							<ReactPlayer url='https://youtu.be/2Mp7sUeoqnw' />
+							<ReactPlayer url='https://youtu.be/2Mp7sUeoqnw' className='react-player' />
 						</div>
 					</div>
+					{/* Design and Planning */}
 					<div className="project-detail">
 						<h3 className="project-detail-title">Design and Planning</h3>
+
+						{/* Color Palette */}
 						<div className="project-design-planning-gallery">
 							<SRLWrapper options={options}>
 								<a href={BrochurePalette}>
@@ -114,6 +126,8 @@ const Brochure = () => (
 						<p>
 							We brainstormed on a color scheme together. I used the Adobe Extract Theme option on Adobe Color, from some product images, to help decide on a color palette. We soon settled on a neutral color palette that would pair with a minimalist white background. This was also confirmed beforehand to ensure that it was color blind safe. This would allow for greater accessibility.
 						</p>
+
+						{/* Contact Us Content Plan */}
 						<div className="project-design-planning-gallery">
 							<SRLWrapper options={options}>
 								<a href={BrochureContentPlan}>
@@ -127,6 +141,61 @@ const Brochure = () => (
 						</p>
 
 					</div>
+
+					{/* Mockups */}
+					<div className="project-detail-gallery-brochure">
+						<SRLWrapper options={options}>
+							<a href={BrochureHomeMockup}>
+								<img src={BrochureHomeMockup}
+									alt="A wireframe of the Home page." />
+							</a>
+						</SRLWrapper>
+						<SRLWrapper options={options}>
+							<a href={BrochureAboutMockup}>
+								<img src={BrochureAboutMockup}
+									alt="A high fidelity mockup of the About page." />
+							</a>
+						</SRLWrapper>
+						<SRLWrapper options={options}>
+							<a href={BrochureContactMockup}>
+								<img src={BrochureContactMockup}
+									alt="A high fidelity mockup of the Contact page." />
+
+							</a>
+						</SRLWrapper>
+					</div>
+					<p>
+						We made some preliminary high fidelity mockups in Adobe Photoshop. We're glad we went with a minimalist white color scheme, as it keeps the products as the "star" of the site. We continued with this theme by having a banner and a CTA that brings users to the Process page.
+					</p>
+
+					{/* Wireframes */}
+					<div className="project-detail-gallery">
+						<div className="project-detail-wireframe-brochure">
+							<SRLWrapper options={options}>
+								<a href={BrochureAboutWireframe}>
+									<img src={BrochureAboutWireframe}
+										alt="A wireframe of the About page." />
+								</a>
+							</SRLWrapper>
+							<SRLWrapper options={options}>
+								<a href={BrochureAboutWireframeMob}>
+									<img src={BrochureAboutWireframeMob}
+										alt="A wireframe of the About page in mobile." />
+								</a>
+							</SRLWrapper>
+							<SRLWrapper options={options}>
+								<a href={BrochureProcessWireframe}>
+									<img src={BrochureProcessWireframe}
+										alt="A wireframe of the Process page." />
+								</a>
+							</SRLWrapper>
+						</div>
+					</div>
+					<p>
+						The wireframes were created in Adobe XD. We decided to rely heavily on CSS grids and flexboxes to showcase our product. We decided this would be best, especially in showcasing the cheese making process.
+					</p>
+
+					{/* Screenshots */}
 					<div className="project-detail">
 						<h3 className="project-detail-title">Site Screenshots</h3>
 						<div className="project-detail-gallery">
@@ -181,7 +250,7 @@ const Brochure = () => (
 					</div>
 					<div className="project-contact-me">
 						<p>
-							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" >Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 					</div>
 				</div>

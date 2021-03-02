@@ -63,7 +63,7 @@ const Portfolio = () => (
 					</div>
 					<div className="project-contact-me">
 						<p>
-							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" >Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 					</div>
 				</div>
