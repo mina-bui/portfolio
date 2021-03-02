@@ -225,7 +225,7 @@ const Brochure = () => (
 							As this project was completed early in the program, in November 2020, the biggest focus was to ensure that all parts of the site were responsive, as well as matching the fictional client requirements, as stated in the development plan. Developing a good mobile layout was important, and so we debugged together as a team by inspecting the site and troubleshooting in this fashion.
 						</p>
 						<p>
-							<iframe height="265" scrolling="no" title="Keep It Cheesy - Media Queries" src="https://codepen.io/mina-bui/embed/GRNxBXy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+							<iframe height="500" scrolling="no" title="Keep It Cheesy - Media Queries" src="https://codepen.io/mina-bui/embed/GRNxBXy?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 								See the Pen <a href='https://codepen.io/mina-bui/pen/GRNxBXy'>Keep It Cheesy - Media Queries</a> by Mina Bui (<a href='https://codepen.io/mina-bui'>@mina-bui</a>) on <a href='https://codepen.io'>CodePen</a>.
 							</iframe>
 						</p>

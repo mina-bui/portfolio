@@ -221,6 +221,19 @@ const Projects = () => (
 						<p>
 							As a challenge, we compared implementing these features using both methods. We quickly found that not only are React functional components easier to read, write, maintain and debug, but using hooks allowed us to reuse components in a smarter, more efficient way.
 						</p>
+						{/* Codepen */}
+						<iframe height="400" scrolling="no" title="JjbZjao" src="https://codepen.io/mina-bui/embed/JjbZjao?height=511&theme-id=dark&default-tab=js" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+							See the Pen <a href='https://codepen.io/mina-bui/pen/JjbZjao'>Calling a movie API with class components!</a> by Mina Bui (<a href='https://codepen.io/mina-bui'>@mina-bui</a>) on <a href='https://codepen.io'>CodePen</a>.
+						</iframe>
+						<p>
+							Here is our simplified version of our homepage. Here, we call the TMDb API using class components by using <code>componentDidMount()</code>. Note the mass amount of code needed. Yikes!
+						</p>
+						<iframe height="400" scrolling="no" title="Calling a movie API with functional components!" src="https://codepen.io/mina-bui/embed/PobaoxK?height=265&theme-id=dark&default-tab=js" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+							See the Pen <a href='https://codepen.io/mina-bui/pen/PobaoxK'>Calling a movie API with functional components!</a> by Mina Bui (<a href='https://codepen.io/mina-bui'>@mina-bui</a>) on <a href='https://codepen.io'>CodePen</a>.
+						</iframe>
+						<p>
+							Now, see this excerpt of our homepage using functional components and <code>useEffect()</code>. It's much more readable and thus, more easily debugged. As a team, we preferred this method.
+						</p>
 					</div>
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
