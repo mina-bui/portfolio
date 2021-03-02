@@ -3,6 +3,9 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+// Import images for Design and Planning
+import BrochurePalette from '../images/brochure-desktop/brochure-adobe-color.jpeg';
+import BrochureContentPlan from '../images/brochure-desktop/brochure-content-plan.png';
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Import screenshots of website
@@ -98,9 +101,34 @@ const Brochure = () => (
 							<ReactPlayer url='https://youtu.be/2Mp7sUeoqnw' />
 						</div>
 					</div>
-
 					<div className="project-detail">
-						<h3 className="project-detail-title">Project Design</h3>
+						<h3 className="project-detail-title">Design and Planning</h3>
+						<div className="project-design-planning-gallery">
+							<SRLWrapper options={options}>
+								<a href={BrochurePalette}>
+									<img src={BrochurePalette}
+										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+								</a>
+							</SRLWrapper>
+						</div>
+						<p>
+							We brainstormed on a color scheme together. I used the Adobe Extract Theme option on Adobe Color, from some product images, to help decide on a color palette. We soon settled on a neutral color palette that would pair with a minimalist white background. This was also confirmed beforehand to ensure that it was color blind safe. This would allow for greater accessibility.
+						</p>
+						<div className="project-design-planning-gallery">
+							<SRLWrapper options={options}>
+								<a href={BrochureContentPlan}>
+									<img src={BrochureContentPlan}
+										alt="The content plan for my part of the project. We later added more options, including radio and checkbox options." />
+								</a>
+							</SRLWrapper>
+						</div>
+						<p>
+							We also worked together to create a content plan. I decided to keep it simple with a contact form that was informative but easy to read for curious customers. We started off with including mainly text inputs, but later added in a wider variety of radio and checkboxes. This allowed for customers to further customize their order.
+						</p>
+
+					</div>
+					<div className="project-detail">
+						<h3 className="project-detail-title">Site Screenshots</h3>
 						<div className="project-detail-gallery">
 							<SRLWrapper options={options}>
 								<a href={HomeImage}>

@@ -38,8 +38,12 @@ const Portfolio = () => (
 							<li>GitHub</li>
 						</ul>
 					</div>
-
-
+					<div className="project-detail">
+						<h3 className="project-detail-title">Design and Planning</h3>
+						<p>
+							To be continued...
+						</p>
+					</div>
 					<div className="project-detail">
 						<h3 className="project-detail-title">Biggest Challenges</h3>
 						<p>

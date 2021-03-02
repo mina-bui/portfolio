@@ -104,7 +104,7 @@ const Capstone = () => (
 						</ul>
 					</div>
 					<div className="project-detail">
-						<h3 className="project-detail-title">Project Design</h3>
+						<h3 className="project-detail-title">Design and Planning</h3>
 						<div className="project-detail-gallery">
 							<div className="project-detail-gallery-capstone">
 								<SRLWrapper options={options}>
@@ -156,6 +156,12 @@ const Capstone = () => (
 								</SRLWrapper>
 							</div>
 						</div>
+					</div>
+					<div className="project-detail">
+						<h3 className="project-detail-title">Site Screenshots</h3>
+						<p>
+							To be continued...
+						</p>
 					</div>
 					<div className="project-detail">
 						<h3 className="project-detail-title">Biggest Challenges</h3>

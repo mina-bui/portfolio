@@ -101,9 +101,14 @@ const Projects = () => (
 							<ReactPlayer url='https://youtu.be/ou_ezRP-iX8' />
 						</div>
 					</div>
-
 					<div className="project-detail">
-						<h3 className="project-detail-title">Project Design</h3>
+						<h3 className="project-detail-title">Design and Planning</h3>
+						<p>
+							To be continued...
+						</p>
+					</div>
+					<div className="project-detail">
+						<h3 className="project-detail-title">Site Screenshots</h3>
 						<div className="project-detail-gallery">
 							<SRLWrapper options={options}>
 								<a href={SearchImage}>

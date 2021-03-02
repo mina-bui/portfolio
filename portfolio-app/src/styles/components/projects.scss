@@ -1,7 +1,4 @@
 // Project Title
-h2.project-detail-title {
-    line-height: 20px;
-}
 h2.project-detail-subtitle {
     font-size: 1.5em;
     line-height: 20px;
@@ -54,6 +51,14 @@ h2.project-detail-subtitle {
 }
 
 // Project Gallery
+.project-design-planning-gallery {
+    text-align: center;
+    img {
+        height: 100%;
+        width: 500px;
+        margin: 10px 0px;
+    }
+}
 .project-detail-gallery {
     text-align: center;
     img {
