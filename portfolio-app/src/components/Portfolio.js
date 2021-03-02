@@ -39,14 +39,14 @@ const Portfolio = () => (
 				<div className="project-detail">
 					<h3>Links</h3>
 					<div classname="project-detail-links">
-						<a href="https://www.github.com/mina-bui/portfolio" target="_blank" >
+						<a href="https://www.github.com/mina-bui/portfolio" target="_blank" rel="noopener" >
 							<button className="project-detail-links-buttons">Github &#129125;</button>
 						</a>
 					</div>
 				</div>
 				<div className="project-contact-me">
 					<p>
-						Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank">Let's talk. &#129125;</a>					</p>
+						Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" >Let's talk. &#129125;</a>					</p>
 				</div>
 			</div>
 		</section>

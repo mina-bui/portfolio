@@ -23,7 +23,8 @@ const Footer = () => (
                         <img src={email}
                             alt="Email"
                             title="Email"
-                            target="_blank" />
+                            target="_blank"
+                            rel="noopener" />
                     </a>
                 </span>
                 <span>
@@ -31,7 +32,8 @@ const Footer = () => (
                         <img src={github}
                             alt="Github"
                             title="Github"
-                            target="_blank" />
+                            target="_blank"
+                            rel="noopener" />
                     </a>
                 </span>
                 <span>
@@ -39,7 +41,8 @@ const Footer = () => (
                         <img src={codepen}
                             alt="Codepen"
                             title="Codepen"
-                            target="_blank" />
+                            target="_blank"
+                            rel="noopener" />
                     </a>
                 </span>
                 <span>
@@ -47,7 +50,8 @@ const Footer = () => (
                         <img src={linkedin}
                             alt="Linkedin"
                             title="Linkedin"
-                            target="_blank" />
+                            target="_blank"
+                            rel="noopener" />
                     </a>
                 </span>
                 <span>
@@ -56,7 +60,8 @@ const Footer = () => (
                             alt="Twitter"
                             title="Twitter"
                             className="twitter-icon"
-                            target="_blank" />
+                            target="_blank"
+                            rel="noopener" />
                     </a>
                 </span>
             </div>

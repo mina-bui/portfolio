@@ -25,7 +25,7 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="capstone-live-link">
-                        <a href="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" >
+                        <a href="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" rel="noopener" >
                             <button>Live Site &#129125;</button>
                         </a>
                     </div>
@@ -36,7 +36,7 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="movieapp-live-link">
-                        <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" >
+                        <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noopener" >
                             <button>Live Site &#129125;</button>
                         </a>
                     </div>
@@ -47,7 +47,7 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="portfolio-live-link">
-                        <a href="https://www.minabui.com/" target="_blank" >
+                        <a href="https://www.minabui.com/" target="_blank" rel="noopener" >
                             <button>Live Site &#129125;</button>
                         </a>
                     </div>
@@ -58,7 +58,7 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="brochure-live-link">
-                        <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" >
+                        <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noopener" >
                             <button>Live Site &#129125;</button>
                         </a>
                     </div>
