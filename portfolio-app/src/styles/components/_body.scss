@@ -20,10 +20,13 @@ h6 {
 }
 
 h1 {
-    font-family: $bodyFont;
+    font-family: $headingFont;
     font-size: 1.2em;
     font-weight: 300;
     line-height: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -83,6 +86,14 @@ button:hover {
     font-weight: bold;
     border: 2px solid $light;
     transition-duration: 0.4s;
+}
+@media only screen and (max-width: 606px) {
+    .capstone-live-link,
+    .movieapp-live-link,
+    .portfolio-live-link,
+    .brochure-live-link {
+        text-align: center;
+    }
 }
 // text selection color
 ::selection {

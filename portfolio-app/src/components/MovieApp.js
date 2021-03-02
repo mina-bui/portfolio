@@ -68,13 +68,17 @@ const Projects = () => (
 		<main>
 			<section>
 				<div className="page-info">
-					<Link to={'/'}>Home</Link> &#x2013; Movie App
+					<div className="breadcrumb">
+						<Link to={'/'}>Home</Link> &#x2013; React Movie App
+					</div>
+
 					<br /><br />
-					<h2>Filmdex &#x2014; React Movie App</h2>
+					<h2 className="project-detail-title">Filmdex &#x2014; <br class="mobile" /> React Movie App</h2>
+					<h2 className="project-detail-subtitle">A film database using the TMDb API.</h2>
 				</div>
 				<div className="page-text">
 					<div className="project-detail">
-						<h3>Project Overview</h3>
+						<h3 className="project-detail-title">Project Overview</h3>
 						<p>
 							I collaborated remotely in a team of two to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
 						</p>
@@ -92,14 +96,14 @@ const Projects = () => (
 					</div>
 
 					<div className="project-detail">
-						<h3>How It Works</h3>
+						<h3 className="project-detail-title">How It Works</h3>
 						<div className="project-detail-video">
 							<ReactPlayer url='https://youtu.be/ou_ezRP-iX8' />
 						</div>
 					</div>
 
 					<div className="project-detail">
-						<h3>Project Design</h3>
+						<h3 className="project-detail-title">Project Design</h3>
 						<div className="project-detail-gallery">
 							<SRLWrapper options={options}>
 								<a href={SearchImage}>
@@ -127,7 +131,7 @@ const Projects = () => (
 					</div>
 
 					<div className="project-detail">
-						<h3>Biggest Challenges</h3>
+						<h3 className="project-detail-title">Biggest Challenges</h3>
 						<p>
 							One of our biggest obstacles was not only learning React functional components and React hooks, but why they are superior to React class components. As a team, we knew that we wanted to implement many additional features, such as a "Load More" button and a search bar.
 						</p>
@@ -136,8 +140,8 @@ const Projects = () => (
 						</p>
 					</div>
 					<div className="project-detail">
-						<h3>Links</h3>
-						<div classname="project-detail-links">
+						<h3 className="project-detail-title">Links</h3>
+						<div className="project-detail-links">
 							<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Live Site &#129125;</button>
 							</a>

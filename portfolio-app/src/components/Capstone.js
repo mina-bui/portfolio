@@ -76,13 +76,17 @@ const Capstone = () => (
 		<main>
 			<section>
 				<div className="page-info">
-					<Link to={'/'}>Home</Link> &#x2013; Capstone
+					<div className="breadcrumb">
+						<Link to={'/'}>Home</Link> &#x2013; Ecommerce Site
+					</div>
+
 					<br /><br />
-					<h2>Etoile &#x2014; Capstone Project</h2>
+					<h2 className="project-detail-title">Etoile &#x2014; <br class="mobile" /> Ecommerce Site</h2>
+					<h2 className="project-detail-subtitle">Building a dynamic WordPress store.</h2>
 				</div>
 				<div className="page-text">
 					<div className="project-detail">
-						<h3>Project Overview</h3>
+						<h3 className="project-detail-title">Project Overview</h3>
 						<p>
 							I collaborated remotely in a team of three to produce ETOILE, a fictional apparel e-commerce store, whose mission is to combine minimalist designs with high quality fabrics. It enables users to purchase from various designer collections, as well as adding customizations, such as uploading their own images and adding embroidery.
 						</p>
@@ -100,7 +104,7 @@ const Capstone = () => (
 						</ul>
 					</div>
 					<div className="project-detail">
-						<h3>Project Design</h3>
+						<h3 className="project-detail-title">Project Design</h3>
 						<div className="project-detail-gallery">
 							<div className="project-detail-gallery-capstone">
 								<SRLWrapper options={options}>
@@ -154,7 +158,7 @@ const Capstone = () => (
 						</div>
 					</div>
 					<div className="project-detail">
-						<h3>Biggest Challenges</h3>
+						<h3 className="project-detail-title">Biggest Challenges</h3>
 						<p>
 							The challenges in this project were not so technically based. Our main focus as a team was not only to write code that was clean and readable for one another, but to create a WordPress interface that would be easy to use for the fictional client and customer base. This required a lot of communication and reflection, and we scheduled frequent meetings to discuss what kinds of Advanced Custom Fields would be created and why.
 						</p>
@@ -163,8 +167,8 @@ const Capstone = () => (
 						</p>
 					</div>
 					<div className="project-detail">
-						<h3>Links</h3>
-						<div classname="project-detail-links">
+						<h3 className="project-detail-title">Links</h3>
+						<div className="project-detail-links">
 							<a href="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Live Site &#129125;</button>
 							</a>

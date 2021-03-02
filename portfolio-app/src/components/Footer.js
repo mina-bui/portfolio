@@ -1,7 +1,6 @@
 // Footer
 
 import { makeYear } from '../utilities/dateMaker';
-import { Link } from 'react-router-dom';
 // importing social media icon images
 import email from '../images/social-media/email-icon.png';
 import github from '../images/social-media/github-icon.png';

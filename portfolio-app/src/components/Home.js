@@ -11,7 +11,7 @@ const Home = (props) => {
             <Helmet>
                 <title>Home &#x007C; Mina Bui &#x2013; Front End Web Developer &#x26; Designer in Vancouver</title>
                 <meta name="description"
-                    content="Mina Bui is a front end developer and web designer in Vancouver, BC. She builds responsive user interfaces, interactive web applications, and minimalist site designs. Interested in working with Mina? Click here to find out more." />
+                    content="Mina Bui is a front end developer and web designer in Vancouver, BC. She builds responsive user interfaces, interactive web applications, and minimalist site designs. Click here to see her online web design portfolio." />
                 <meta name="keywords"
                     content="Front end web developer, web designer Vancouver, responsive user interfaces, interactive web applications, site designs, BCIT front end developer, Vancouver web design, hire web designer Vancouver, BCIT TWD, BCIT FED" />
             </Helmet>
@@ -63,7 +63,7 @@ const Home = (props) => {
 
                         <div className="brochure-card">
                             <p>
-                                <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using JavaScript and Sass to design a brochure site for gourmet cheese.
+                                <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using JavaScript and Sass to design a business site for gourmet cheese.
                             </p>
                         </div>
                         <div className="brochure-live-link">

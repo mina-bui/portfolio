@@ -69,13 +69,17 @@ const Brochure = () => (
 		<main>
 			<section>
 				<div className="page-info">
-					<Link to={'/'}>Home</Link> &#x2013; Brochure
+					<div className="breadcrumb">
+						<Link to={'/'}>Home</Link> &#x2013; Business Site
+					</div>
+
 					<br /><br />
-					<h2>Keep It Cheesy &#x2014; Business Brochure</h2>
+					<h2 className="project-detail-title">Keep It Cheesy &#x2014; <br class="mobile" /> Business Site</h2>
+					<h2 className="project-detail-subtitle">Exploring CSS grids and flexboxes.</h2>
 				</div>
 				<div className="page-text">
 					<div className="project-detail">
-						<h3>Project Overview</h3>
+						<h3 className="project-detail-title">Project Overview</h3>
 						<p>
 							I collaborated remotely in a team of three to produce Keep It Cheesy, a fictional gourmet cheese store, showcasing their production process and product selection. It enables users to send inquiries and custom orders using a contact form. The website was created using JavaScript, Sass, HTML, and GitHub. My role was to build the HTML and develop the styling, particularly on the Contact page.
 						</p>
@@ -89,14 +93,14 @@ const Brochure = () => (
 					</div>
 
 					<div className="project-detail">
-						<h3>Walkthrough</h3>
+						<h3 className="project-detail-title">Walkthrough</h3>
 						<div className="project-detail-video">
 							<ReactPlayer url='https://youtu.be/2Mp7sUeoqnw' />
 						</div>
 					</div>
 
 					<div className="project-detail">
-						<h3>Project Design</h3>
+						<h3 className="project-detail-title">Project Design</h3>
 						<div className="project-detail-gallery">
 							<SRLWrapper options={options}>
 								<a href={HomeImage}>
@@ -119,7 +123,7 @@ const Brochure = () => (
 						</div>
 					</div>
 					<div className="project-detail">
-						<h3>Biggest Challenges</h3>
+						<h3 className="project-detail-title">Biggest Challenges</h3>
 						<p>
 							As this project was completed early in the program, in November 2020, the biggest focus was to ensure that all parts of the site were responsive, as well as matching the fictional client requirements, as stated in the development plan. Developing a good mobile layout was important, and so we debugged together as a team by inspecting the site and troubleshooting in this fashion.
 						</p>
@@ -137,8 +141,8 @@ const Brochure = () => (
 						</p>
 					</div>
 					<div className="project-detail">
-						<h3>Links</h3>
-						<div classname="project-detail-links">
+						<h3 className="project-detail-title">Links</h3>
+						<div className="project-detail-links">
 							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Live Site &#129125;</button>
 							</a>
