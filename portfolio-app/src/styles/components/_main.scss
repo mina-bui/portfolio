@@ -57,10 +57,10 @@ section {
     column-gap: 50px;
     display: grid;
     grid-template-areas:
-        "capstone"
-        "capstone-link"
         "movieapp"
         "movieapp-link"
+        "capstone"
+        "capstone-link"
         "portfolio"
         "portfolio-link"
         "brochure"
@@ -74,8 +74,8 @@ section {
 @media only screen and (min-width: 606px) and (max-width: 1082px) {
     .home-project-list {
         grid-template-areas:
-            "capstone movieapp"
-            "capstone-link movieapp-link"
+            "movieapp capstone"
+            "movieapp-link capstone-link"
             "portfolio brochure"
             "portfolio-link brochure-link";
     }
@@ -91,8 +91,8 @@ section {
 @media only screen and (min-width: 1082px) {
     .home-project-list {
         grid-template-areas:
-            "capstone movieapp portfolio brochure"
-            "capstone-link movieapp-link portfolio-link brochure-link";
+            "movieapp capstone portfolio brochure"
+            "movieapp-link capstone-link portfolio-link brochure-link";
     }
     .home-introduction {
         h2 {

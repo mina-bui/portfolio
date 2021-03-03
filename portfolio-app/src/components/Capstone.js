@@ -206,12 +206,6 @@ const Capstone = () => (
 						</p>
 					</div>
 					<div className="project-detail">
-						<h3 className="project-detail-title">Site Screenshots</h3>
-						<p>
-							This project is a work in process and will be completed in early March. Stay tuned for updates!
-						</p>
-					</div>
-					<div className="project-detail">
 						<h3 className="project-detail-title">Biggest Challenges</h3>
 						<p>
 							The challenges in this project were not so technically based. Our main focus as a team was not only to write code that was clean and readable for one another, but to create a WordPress interface that would be easy to use for the fictional client and customer base. This required a lot of communication and reflection, and we scheduled frequent meetings to discuss what kinds of Advanced Custom Fields would be created and why.

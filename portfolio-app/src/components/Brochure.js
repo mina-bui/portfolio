@@ -28,7 +28,8 @@ import PopupMessage from '../images/popup-message.png';
 // react-reveal for animations! 
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
-
+// Get images for project site previews
+import brochureLaptop from '../images/brochure-home-laptop.png';
 
 const options = {
 	settings: {
@@ -90,7 +91,9 @@ const Brochure = () => (
 						<div className="breadcrumb">
 							<Link to={'/'}>Home</Link> &#x2013; Business Site
 					</div>
-
+						<div className="project-laptop-wrapper">
+							<img src={brochureLaptop} alt="Keep It Cheesy homepage on laptop" className="project-laptop-banner" />
+						</div>
 						<br /><br />
 						<h2 className="project-detail-title">Keep It Cheesy &#x2014; <br class="mobile" /> Business Site</h2>
 						<h2 className="project-detail-subtitle">Exploring CSS grids and flexboxes.</h2>

@@ -36,7 +36,14 @@ h2.project-detail-subtitle {
         display: none;
     }
 }
-
+// Project Screenshot on Laptop
+.project-laptop-wrapper {
+    text-align: center;
+    img {
+        height: 100%;
+        width: 600px;
+    }
+}
 // Project Technologies List
 .project-technologies {
     list-style-type: none;
