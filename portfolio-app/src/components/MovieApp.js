@@ -112,7 +112,7 @@ const Projects = () => (
 						<div className="project-detail">
 							<h3 className="project-detail-title" id="next">Project Overview</h3>
 							<p>
-								In January 2021, I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. (Yes, the name is a play on words with Pokédex). There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
+								In January 2021, I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noreferrer" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. (Yes, the name is a play on words with Pokédex). There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
 						</p>
 							<p>
 								The web application was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.
@@ -274,21 +274,21 @@ const Projects = () => (
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
 							<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
-								title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noopener" >
+								title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Live Site &#129125;</button>
 							</a>
 
 							<a href="https://www.github.com/mina-bui/twd-movie-app-final-version"
-								title="https://www.github.com/mina-bui/twd-movie-app-final-version" target="_blank" rel="noopener" >
+								title="https://www.github.com/mina-bui/twd-movie-app-final-version" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
-						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" className="hidden-on-mobile" >
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>

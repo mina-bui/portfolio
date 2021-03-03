@@ -3,8 +3,6 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-// Get images for project site previews
-import defaultLaptop from '../images/default-home-laptop.png';
 // react-reveal for animations!
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
@@ -53,7 +51,7 @@ const Home = (props) => {
                             <div className="capstone-live-link">
                                 <a href="https://www.etoile.bcitwebdeveloper.ca/"
                                     title="https://www.etoile.bcitwebdeveloper.ca/"
-                                    target="_blank" rel="noopener" >
+                                    target="_blank" rel="noreferrer" >
                                     <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>
@@ -66,7 +64,7 @@ const Home = (props) => {
                             <div className="movieapp-live-link">
                                 <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
                                     title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
-                                    target="_blank" rel="noopener" >
+                                    target="_blank" rel="noreferrer" >
                                     <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>
@@ -79,7 +77,7 @@ const Home = (props) => {
                             <div className="portfolio-live-link">
                                 <a href="https://www.minabui.com/"
                                     title="https://www.minabui.com/"
-                                    target="_blank" rel="noopener" >
+                                    target="_blank" rel="noreferrer" >
                                     <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>
@@ -92,7 +90,7 @@ const Home = (props) => {
                             <div className="brochure-live-link">
                                 <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
                                     title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
-                                    target="_blank" rel="noopener" >
+                                    target="_blank" rel="noreferrer" >
                                     <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>

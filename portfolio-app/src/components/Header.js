@@ -9,8 +9,7 @@ const Header = () => {
 
 		<header>
 			<div className="header-row header-row-01">
-				<a id="top"></a>
-				<h1><Link to={'/'}>Mina Bui</Link></h1>
+				<h1 id="top"><Link to={'/'}>Mina Bui</Link></h1>
 
 			</div>
 			<div className="header-row header-row-02">

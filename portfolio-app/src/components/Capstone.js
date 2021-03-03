@@ -110,7 +110,7 @@ const Capstone = () => (
 								In February 2021, I collaborated remotely in a team of three to produce ETOILE, a fictional apparel e-commerce store, whose mission is to combine minimalist designs with high quality fabrics. It enables users to purchase from various designer collections, as well as adding customizations, such as uploading their own images and adding embroidery.
 						</p>
 							<p>
-								The website was created using WordPress, PHP, JavaScript, Sass and GitHub with team members <a href="https://github.com/janice-lin" title="Github: janice-lin" target="_blank" rel="noopener" >Janice Lin &#129125;</a> and <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a>. My role was to build an attractive UI design for the client's Wordpress interface, as well as for customers visiting the site.
+								The website was created using WordPress, PHP, JavaScript, Sass and GitHub with team members <a href="https://github.com/janice-lin" title="Github: janice-lin" target="_blank" rel="noreferrer" >Janice Lin &#129125;</a> and <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noreferrer" >Vinson Nguyen &#129125;</a>. My role was to build an attractive UI design for the client's Wordpress interface, as well as for customers visiting the site.
 						</p>
 							<ul className="project-technologies">
 
@@ -224,21 +224,21 @@ const Capstone = () => (
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
 							<a href="https://www.etoile.bcitwebdeveloper.ca/"
-								title="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" rel="noopener" >
+								title="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Live Site &#129125;</button>
 							</a>
 
 							<a href="https://www.github.com/htpwebdesign/etoile"
-								title="https://www.github.com/htpwebdesign/etoile" target="_blank" rel="noopener" >
+								title="https://www.github.com/htpwebdesign/etoile" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
-						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" className="hidden-on-mobile" >
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>

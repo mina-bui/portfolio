@@ -112,7 +112,7 @@ const Brochure = () => (
 						<div className="project-detail">
 							<h3 className="project-detail-title" id="next">Project Overview</h3>
 							<p>
-								In November 2020, I collaborated remotely in a team of three to produce Keep It Cheesy, a fictional gourmet cheese store, showcasing their production process and product selection. It enables users to send inquiries and custom orders using a contact form. The website was created using JavaScript, Sass, HTML, and GitHub with team members <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> and <a href="https://github.com/omcdanielfeilden" title="Github: omcdanielfeilden" target="_blank" rel="noopener" >Olivia Feilden &#129125;</a>. My role was to build the HTML and develop the styling, particularly on the Contact page.
+								In November 2020, I collaborated remotely in a team of three to produce Keep It Cheesy, a fictional gourmet cheese store, showcasing their production process and product selection. It enables users to send inquiries and custom orders using a contact form. The website was created using JavaScript, Sass, HTML, and GitHub with team members <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noreferrer" >Vinson Nguyen &#129125;</a> and <a href="https://github.com/omcdanielfeilden" title="Github: omcdanielfeilden" target="_blank" rel="noreferrer" >Olivia Feilden &#129125;</a>. My role was to build the HTML and develop the styling, particularly on the Contact page.
 						</p>
 							<ul className="project-technologies">
 								<li>HTML5</li>
@@ -273,19 +273,19 @@ const Brochure = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noopener" >
+							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Live Site &#129125;</button>
 							</a>
-							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" title="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noopener" >
+							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" title="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
-						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" className="hidden-on-mobile" >
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>

@@ -22,7 +22,7 @@ const OC_API_KEY_ONLY = '31f2bcd8c5d54c3fa54cb26c3341f358';
 export const OC_API_KEY = `&key=${OC_API_KEY_ONLY}`;
 export const OC_BASE_URL = `https://api.opencagedata.com/geocode/v1/json?&q=`;
 // General App Settings
-export const APP_FOLDER_NAME = '/weather-app';
+export const APP_FOLDER_NAME = '/react-app';
 export const MAX_NUMBER_OF_CITIES = 5;
 
 // LocalStorage Defaults
@@ -34,4 +34,5 @@ export const DEFAULT_CITY = 'Vancouver';
 export const DEFAULT_COUNTRY = 'Canada';
 export const DEFAULT_REGION = 'North America';
 export const DEFAULT_LAT = 49.2827;
-export const DEFAULT_LON = -123.1207; */
+export const DEFAULT_LON = -123.1207;  */
+export const APP_FOLDER_NAME = '/react-portfolio';

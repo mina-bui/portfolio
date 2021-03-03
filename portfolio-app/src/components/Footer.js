@@ -23,7 +23,7 @@ const Footer = () => (
                             alt="Email"
                             title="mailto:hello@minabui.com"
                             target="_blank"
-                            rel="noopener" />
+                            rel="noreferrer" />
                     </a>
                 </span>
                 <span>
@@ -32,7 +32,7 @@ const Footer = () => (
                             alt="Github"
                             title="Github: mina-bui"
                             target="_blank"
-                            rel="noopener" />
+                            rel="noreferrer" />
                     </a>
                 </span>
                 <span>
@@ -41,7 +41,7 @@ const Footer = () => (
                             alt="Codepen"
                             title="Codepen: mina-bui"
                             target="_blank"
-                            rel="noopener" />
+                            rel="noreferrer" />
                     </a>
                 </span>
                 <span>
@@ -50,7 +50,7 @@ const Footer = () => (
                             alt="Linkedin"
                             title="Linkedin: mina-bui"
                             target="_blank"
-                            rel="noopener" />
+                            rel="noreferrer" />
                     </a>
                 </span>
                 <span>
@@ -60,7 +60,7 @@ const Footer = () => (
                             title="Twitter: webdevmina"
                             className="twitter-icon"
                             target="_blank"
-                            rel="noopener" />
+                            rel="noreferrer" />
                     </a>
                 </span>
             </div>
