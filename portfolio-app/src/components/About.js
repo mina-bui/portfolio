@@ -4,6 +4,7 @@ import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import headshot from '../images/social-media/headshot.png';
+import PopupMessage from '../images/popup-message.png';
 
 const About = () => (
 	<Fragment>
@@ -35,6 +36,7 @@ const About = () => (
 						<p>
 							Today, I'm available for new challenges, so <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >shoot me an email at hello@minabui.com &#129125;</a> and let's talk about it. Cheers!
                 		</p>
+
 					</div>
 				</div>
 

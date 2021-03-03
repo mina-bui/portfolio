@@ -6,10 +6,6 @@ import { Link } from 'react-router-dom';
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Wireframes
-// Desktop
-import PortfolioHome from '../images/portfolio/home-desktop.png';
-import PortfolioAbout from '../images/portfolio/about-desktop.png';
-import PortfolioSingleProject from '../images/portfolio/single-project-desktop.png';
 // Mobile
 import PortfolioHomeMob from '../images/portfolio/home-mobile.png';
 import PortfolioAboutMob from '../images/portfolio/about-mobile.png';
@@ -17,6 +13,8 @@ import PortfolioSingleProjectMob from '../images/portfolio/single-project-mobile
 // Others
 import PortfolioMoodBoard from '../images/portfolio/portfolio-mood-board.png';
 import PortfolioSiteMap from '../images/portfolio/portfolio-site-map-1.png';
+import PopupMessage from '../images/popup-message.png';
+
 
 const options = {
 	settings: {
@@ -104,7 +102,8 @@ const Portfolio = () => (
 								<a href={PortfolioMoodBoard}>
 									<img src={PortfolioMoodBoard}
 										alt="The mood board, which features a variety of modern but bright images that I wanted my portfolio site to envoke."
-										id="etoile-ia-background" />
+										id="etoile-ia-background"
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -114,7 +113,8 @@ const Portfolio = () => (
 								<a href={PortfolioSiteMap}>
 									<img src={PortfolioSiteMap}
 										alt="The information architecture site map that I settled on."
-										id="etoile-ia-background" />
+										id="etoile-ia-background"
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -132,19 +132,22 @@ const Portfolio = () => (
 							<SRLWrapper options={options}>
 								<a href={PortfolioHomeMob}>
 									<img src={PortfolioHomeMob}
-										alt="A wireframe of the Home mobile page, starting with a welcoming banner, an introduction of who I am, and a button to see the About Me section. Below is a list of projects I completed at BCIT." />
+										alt="A wireframe of the Home mobile page, starting with a welcoming banner, an introduction of who I am, and a button to see the About Me section. Below is a list of projects I completed at BCIT."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={PortfolioAboutMob}>
 									<img src={PortfolioAboutMob}
-										alt="A wireframe of the About mobile page. It would begin with a headshot of me and below, a short description of who I am and what I do." />
+										alt="A wireframe of the About mobile page. It would begin with a headshot of me and below, a short description of who I am and what I do."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={PortfolioSingleProjectMob}>
 									<img src={PortfolioSingleProjectMob}
-										alt="A wireframe of the Project Description mobile page. This would begin with an image or video of the project, a quick project overview, and then screenshots of the design and development process." />
+										alt="A wireframe of the Project Description mobile page. This would begin with an image or video of the project, a quick project overview, and then screenshots of the design and development process."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -190,9 +193,12 @@ const Portfolio = () => (
 						</div>
 					</div>
 					<div className="project-contact-me">
-						<p>
-							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
+						<p className="mobile">
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
+							<img src={PopupMessage} alt="Popup computer message" className="hidden-on-mobile" />
+						</a>
 					</div>
 				</div>
 			</section>

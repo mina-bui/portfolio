@@ -21,6 +21,8 @@ import CapAboutImageMob from '../images/capstone-mobile/capstone-about-mobile.pn
 import CapContactImageMob from '../images/capstone-mobile/capstone-contact-mobile.png';
 import CapProductImageMob from '../images/capstone-mobile/capstone-product-mobile.png';
 import CapShopImageMob from '../images/capstone-mobile/capstone-shop-mobile.png';
+import PopupMessage from '../images/popup-message.png';
+
 
 
 const options = {
@@ -224,9 +226,12 @@ const Capstone = () => (
 						</div>
 					</div>
 					<div className="project-contact-me">
-						<p>
+						<p className="mobile">
 							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
+							<img src={PopupMessage} alt="Popup computer message" className="hidden-on-mobile" />
+						</a>
 					</div>
 				</div>
 			</section>

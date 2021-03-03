@@ -24,6 +24,8 @@ import AboutImage from '../images/brochure-desktop/brochure-about-desktop.png';
 import ContactImage from '../images/brochure-desktop/brochure-contact-desktop.png';
 // Import ReactPlayer to show video of site walkthrough
 import ReactPlayer from 'react-player/youtube';
+import PopupMessage from '../images/popup-message.png';
+
 
 const options = {
 	settings: {
@@ -262,9 +264,12 @@ const Brochure = () => (
 						</div>
 					</div>
 					<div className="project-contact-me">
-						<p>
+						<p className="mobile">
 							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
+							<img src={PopupMessage} alt="Popup computer message" className="hidden-on-mobile" />
+						</a>
 					</div>
 				</div>
 			</section>
