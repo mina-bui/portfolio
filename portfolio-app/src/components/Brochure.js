@@ -112,14 +112,14 @@ const Brochure = () => (
 								<li>Photoshop</li>
 							</ul>
 						</div>
-
-						<div className="project-detail">
-							<h3 className="project-detail-title">Walkthrough</h3>
-							<div className="project-detail-video">
-								<ReactPlayer url='https://youtu.be/2Mp7sUeoqnw' className='react-player' />
-							</div>
-						</div>
 					</Reveal>
+					<div className="project-detail">
+						<h3 className="project-detail-title">Walkthrough</h3>
+						<div className="project-detail-video">
+							<ReactPlayer url='https://youtu.be/2Mp7sUeoqnw' className='react-player' />
+						</div>
+					</div>
+
 					{/* Design and Planning */}
 					<div className="project-detail">
 						<h3 className="project-detail-title">Design and Planning</h3>

@@ -17,7 +17,8 @@ import PopupMessage from '../images/popup-message.png';
 // react-reveal for animations!
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
-
+// Get images for project site previews
+import defaultLaptop from '../images/default-home-laptop.png';
 
 const options = {
 	settings: {
@@ -78,7 +79,9 @@ const Portfolio = () => (
 						<div className="breadcrumb">
 							<Link to={'/'}>Home</Link> &#x2013; React Portfolio
 					</div>
-
+						<div className="project-laptop-wrapper">
+							<img src={defaultLaptop} alt="Portfolio homepage on laptop" className="project-laptop-banner" />
+						</div>
 						<br /><br />
 						<h2 className="project-detail-title">React Portfolio</h2>
 						<h2 className="project-detail-subtitle">Showcasing my BCIT projects.</h2>
@@ -102,21 +105,19 @@ const Portfolio = () => (
 					</Reveal>
 
 					<div className="project-detail">
-						<Reveal>
-							<h3 className="project-detail-title">Design and Planning</h3>
+						<h3 className="project-detail-title">Design and Planning</h3>
 
-							{/* Mood Board */}
-							<div className="project-design-planning-gallery">
-								<SRLWrapper options={options}>
-									<a href={PortfolioMoodBoard}>
-										<img src={PortfolioMoodBoard}
-											alt="The mood board, which features a variety of modern but bright images that I wanted my portfolio site to envoke."
-											id="etoile-ia-background"
-											title="Click to view full screen" />
-									</a>
-								</SRLWrapper>
-							</div>
-						</Reveal>
+						{/* Mood Board */}
+						<div className="project-design-planning-gallery">
+							<SRLWrapper options={options}>
+								<a href={PortfolioMoodBoard}>
+									<img src={PortfolioMoodBoard}
+										alt="The mood board, which features a variety of modern but bright images that I wanted my portfolio site to envoke."
+										id="etoile-ia-background"
+										title="Click to view full screen" />
+								</a>
+							</SRLWrapper>
+						</div>
 						{/* Content Plan */}
 						<div className="project-design-planning-gallery">
 							<SRLWrapper options={options}>

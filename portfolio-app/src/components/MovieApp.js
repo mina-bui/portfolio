@@ -27,6 +27,9 @@ import PopupMessage from '../images/popup-message.png';
 // react-reveal for animations!
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
+// Get images for project site previews
+import movieLaptop from '../images/filmdex-home-laptop.png';
+
 
 const options = {
 	settings: {
@@ -87,11 +90,14 @@ const Projects = () => (
 						<div className="breadcrumb">
 							<Link to={'/'}>Home</Link> &#x2013; React Movie App
 					</div>
-
+						<div className="project-laptop-wrapper">
+							<img src={movieLaptop} alt="Filmdex homepage on laptop" className="project-laptop-banner" />
+						</div>
 						<br /><br />
 						<h2 className="project-detail-title">Filmdex &#x2014; <br class="mobile" /> React Movie App</h2>
 						<h2 className="project-detail-subtitle">A film database using the TMDb API.</h2>
 					</div>
+
 				</Reveal>
 
 				<div className="page-text">

@@ -25,7 +25,8 @@ import PopupMessage from '../images/popup-message.png';
 // react-reveal for animations!
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
-
+// Get images for project site previews
+import etoileLaptop from '../images/etoile-home-laptop.png';
 
 const options = {
 	settings: {
@@ -86,13 +87,15 @@ const Capstone = () => (
 						<div className="breadcrumb">
 							<Link to={'/'}>Home</Link> &#x2013; Ecommerce Site
 					</div>
-
+						<div className="project-laptop-wrapper">
+							<img src={etoileLaptop} alt="Etoile homepage on laptop" className="project-laptop-banner" />
+						</div>
 						<br /><br />
 						<h2 className="project-detail-title">Etoile &#x2014; <br class="mobile" /> Ecommerce Site</h2>
 						<h2 className="project-detail-subtitle">Building a dynamic WordPress store.</h2>
 					</div>
-				</Reveal>
 
+				</Reveal>
 				<div className="page-text">
 					<Reveal>
 						<div className="project-detail">
@@ -115,19 +118,17 @@ const Capstone = () => (
 						</div>
 					</Reveal>
 					<div className="project-detail">
-						<Reveal>
-							<h3 className="project-detail-title">Design and Planning</h3>
-							<div className="project-design-planning-gallery">
-								<SRLWrapper options={options}>
-									<a href={CapIA}>
-										<img src={CapIA}
-											alt="High fidelity home page mockup."
-											id="etoile-ia-background"
-											title="Click to view full screen" />
-									</a>
-								</SRLWrapper>
-							</div>
-						</Reveal>
+						<h3 className="project-detail-title">Design and Planning</h3>
+						<div className="project-design-planning-gallery">
+							<SRLWrapper options={options}>
+								<a href={CapIA}>
+									<img src={CapIA}
+										alt="High fidelity home page mockup."
+										id="etoile-ia-background"
+										title="Click to view full screen" />
+								</a>
+							</SRLWrapper>
+						</div>
 						<p>
 							One of the most important steps in the planning process was to create an information architecture map to ensure we were creating the correct PHP files. Given the nature of our products, we decided to keep the product categories simple. We later decided to add gift cards, however.
 							</p>
