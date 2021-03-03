@@ -94,6 +94,13 @@ const Home = (props) => {
                             </div>
                         </div>
                     </section>
+                    <div className="mobile">
+                        <div className="back-to-top-wrapper">
+                            <a href="#top">
+                                <button className="back-to-top">&#x2B9D;</button>
+                            </a>
+                        </div>
+                    </div>
                 </Reveal>
 
             </main>

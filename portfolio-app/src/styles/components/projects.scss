@@ -186,3 +186,22 @@ code {
     text-align: center;
     margin-top: 25px;
 }
+// Scroll to top button
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    padding: 10px 12px;
+    border: none;
+    background-color: $darkGrey;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 100px;
+}
+.back-to-top:hover {
+    border: none;
+    background-color: white;
+    color: $orange;
+    transition-duration: 0.4s;
+}

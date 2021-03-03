@@ -46,7 +46,15 @@ const About = () => (
 							<img src={headshot} alt="Mina Bui's headshot" className="headshot" />
 						</div>
 					</div>
+
 				</section>
+				<div className="mobile">
+					<div className="back-to-top-wrapper">
+						<a href="#top">
+							<button className="back-to-top">&#x2B9D;</button>
+						</a>
+					</div>
+				</div>
 			</Reveal>
 		</main>
 	</Fragment>

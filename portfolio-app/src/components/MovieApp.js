@@ -86,6 +86,7 @@ const Projects = () => (
 		<main>
 			<section>
 				<Reveal>
+
 					<div className="page-info">
 						<div className="breadcrumb">
 							<Link to={'/'}>Home</Link> &#x2013; React Movie App
@@ -283,6 +284,11 @@ const Projects = () => (
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
+						</a>
+					</div>
+					<div className="back-to-top-wrapper">
+						<a href="#top">
+							<button className="back-to-top">&#x2B9D;</button>
 						</a>
 					</div>
 				</div>
