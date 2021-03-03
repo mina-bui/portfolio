@@ -1,6 +1,7 @@
 // Footer
 
 import { makeYear } from '../utilities/dateMaker';
+import { Link } from 'react-router-dom';
 // importing social media icon images
 import email from '../images/social-media/email-icon.png';
 import github from '../images/social-media/github-icon.png';
@@ -13,7 +14,7 @@ const Footer = () => (
 
     <footer className="header">
         <div className="footer-column">
-            <b>Mina Bui</b> &#x2014; Copyright &copy; {makeYear()}
+            <Link to={'/'}><b>Mina Bui</b></Link> &#x2014; Copyright &copy; {makeYear()}
         </div>
         <div className="footer-column">
             <div className="social-media-column">

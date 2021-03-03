@@ -23,7 +23,7 @@ const Home = (props) => {
                     <section>
                         <div className="home-introduction">
                             <div className="page-info">
-                                <h2 id="text">Hey, Mina Bui here.</h2>
+                                <h2 id="text">Hey, Mina here.</h2>
 
                                 <h4>
                                     Front end web developer &#x26; designer in Vancouver. <br />
@@ -32,7 +32,7 @@ const Home = (props) => {
 
                                 <div className="contact-btn-wrapper">
                                     <Link to={'/about'}>
-                                        <button className="contact-btn">Learn More</button>
+                                        <button className="contact-btn">Read More</button>
                                     </Link>
 
                                 </div>
@@ -52,7 +52,7 @@ const Home = (props) => {
                                 <a href="https://www.etoile.bcitwebdeveloper.ca/"
                                     title="https://www.etoile.bcitwebdeveloper.ca/"
                                     target="_blank" rel="noreferrer" >
-                                    <button className="round-btn">Live Site &#129125;</button>
+                                    <button className="round-btn">View Live </button>
                                 </a>
                             </div>
 
@@ -65,7 +65,7 @@ const Home = (props) => {
                                 <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
                                     title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
                                     target="_blank" rel="noreferrer" >
-                                    <button className="round-btn">Live Site &#129125;</button>
+                                    <button className="round-btn">View Live </button>
                                 </a>
                             </div>
 
@@ -78,7 +78,7 @@ const Home = (props) => {
                                 <a href="https://www.minabui.com/"
                                     title="https://www.minabui.com/"
                                     target="_blank" rel="noreferrer" >
-                                    <button className="round-btn">Live Site &#129125;</button>
+                                    <button className="round-btn">View Live </button>
                                 </a>
                             </div>
 
@@ -91,7 +91,7 @@ const Home = (props) => {
                                 <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
                                     title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
                                     target="_blank" rel="noreferrer" >
-                                    <button className="round-btn">Live Site &#129125;</button>
+                                    <button className="round-btn">View Live </button>
                                 </a>
                             </div>
                         </div>
