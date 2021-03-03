@@ -175,19 +175,15 @@ code {
     padding: 2px 6px;
 }
 
-// Links to Live Site, Github
-.project-detail-links {
-    text-align: center;
-}
-.project-detail-links-buttons {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
 // Contact me message at the end of every project
 .project-contact-me {
     text-align: center;
     margin-top: 25px;
+}
+
+// Links
+.project-detail-links a button {
+    margin-right: 10px;
 }
 // Scroll to top button
 .back-to-top {

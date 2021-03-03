@@ -21,6 +21,9 @@ section {
     grid-area: capstone;
     margin-top: 50px;
 }
+.capstone-card:hover {
+    display: inline;
+}
 .movieapp-card {
     grid-area: movieapp;
     margin-top: 50px;
@@ -113,4 +116,26 @@ section {
     .home-banner {
         display: none;
     }
+}
+// Contact Me Button
+.contact-btn-wrapper {
+    margin: 25px 0px;
+}
+.contact-btn {
+    border-radius: 25px;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.contact-btn:hover {
+    border: 2px solid $orange;
+    color: $orange;
+    transition-duration: 0.4s;
+}
+// Project Heading
+.home-project-list-heading {
+    padding: 0px;
+    margin-top: 80px;
+    line-height: 0px;
+    font-weight: bold;
 }

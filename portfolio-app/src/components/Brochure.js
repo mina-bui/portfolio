@@ -274,10 +274,10 @@ const Brochure = () => (
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
 							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Live Site &#129125;</button>
+								<button className="round-btn">Live Site &#129125;</button>
 							</a>
 							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" title="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Github &#129125;</button>
+								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>

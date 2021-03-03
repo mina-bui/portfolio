@@ -18,7 +18,7 @@ import PopupMessage from '../images/popup-message.png';
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
 // Get images for project site previews
-import defaultLaptop from '../images/default-home-laptop.png';
+import portfolioLaptop from '../images/portfolio-home-laptop.png';
 
 const options = {
 	settings: {
@@ -80,7 +80,7 @@ const Portfolio = () => (
 							<Link to={'/'}>Home</Link> &#x2013; React Portfolio
 					</div>
 						<div className="project-laptop-wrapper">
-							<img src={defaultLaptop} alt="Portfolio homepage on laptop" className="project-laptop-banner" />
+							<img src={portfolioLaptop} alt="Portfolio homepage on laptop" className="project-laptop-banner" />
 						</div>
 						<br /><br />
 						<h2 className="project-detail-title">React Portfolio</h2>
@@ -202,11 +202,11 @@ const Portfolio = () => (
 						<div className="project-detail-links">
 							<a href="https://www.minabui.com"
 								title="https://www.minabui.com" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Live Site &#129125;</button>
+								<button className="round-btn">Live Site &#129125;</button>
 							</a>
 							<a href="https://www.github.com/mina-bui/portfolio"
 								title="https://www.github.com/mina-bui/portfolio" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Github &#129125;</button>
+								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>

@@ -29,17 +29,20 @@ const Home = (props) => {
 
                                 <h4>
                                     Front end web developer &#x26; designer in Vancouver. <br />
-                                Focused on building simple, responsive user interfaces.
-                            </h4>
-                                <br className="hidden-on-mobile" /><br className="hidden-on-mobile" />
-                                <div className="home-banner-wrapper">
-                                    <img src={defaultLaptop} alt="Home Banner" className="home-banner" />
+                                    Focused on building simple, responsive user interfaces.
+                                </h4>
+                                <div className="contact-btn-wrapper">
+                                    <Link to={'/about'}>
+                                        <button className="contact-btn">Learn More</button>
+                                    </Link>
+
                                 </div>
                             </div>
                         </div>
                     </section>
 
                     <section>
+                        <h4 className="home-project-list-heading">My Latest Works</h4>
                         <div className="home-project-list">
                             <div className="capstone-card">
                                 <p>
@@ -50,7 +53,7 @@ const Home = (props) => {
                                 <a href="https://www.etoile.bcitwebdeveloper.ca/"
                                     title="https://www.etoile.bcitwebdeveloper.ca/"
                                     target="_blank" rel="noopener" >
-                                    <button>Live Site &#129125;</button>
+                                    <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>
 
@@ -63,7 +66,7 @@ const Home = (props) => {
                                 <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
                                     title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
                                     target="_blank" rel="noopener" >
-                                    <button>Live Site &#129125;</button>
+                                    <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>
 
@@ -76,7 +79,7 @@ const Home = (props) => {
                                 <a href="https://www.minabui.com/"
                                     title="https://www.minabui.com/"
                                     target="_blank" rel="noopener" >
-                                    <button>Live Site &#129125;</button>
+                                    <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>
 
@@ -89,7 +92,7 @@ const Home = (props) => {
                                 <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
                                     title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
                                     target="_blank" rel="noopener" >
-                                    <button>Live Site &#129125;</button>
+                                    <button className="round-btn">Live Site &#129125;</button>
                                 </a>
                             </div>
                         </div>

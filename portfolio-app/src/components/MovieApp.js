@@ -275,12 +275,12 @@ const Projects = () => (
 						<div className="project-detail-links">
 							<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
 								title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Live Site &#129125;</button>
+								<button className="round-btn">Live Site &#129125;</button>
 							</a>
 
 							<a href="https://www.github.com/mina-bui/twd-movie-app-final-version"
 								title="https://www.github.com/mina-bui/twd-movie-app-final-version" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Github &#129125;</button>
+								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>

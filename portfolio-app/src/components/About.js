@@ -19,7 +19,7 @@ const About = () => (
 		<main>
 			<Reveal>
 				<section className="about-wrapper">
-					<div className="about-column-one">
+					<div className="about-me">
 						<Link to={'/'}>Home</Link> &#x2013; About
 						<br /><br />
 						<div className="page-info">
@@ -36,15 +36,35 @@ const About = () => (
 								Growing up surrounded by BC's landscape sparked an interest in sustainability, so I went to study  Geography &#x26; GIS at SFU, where I built reports and maps using spatial data. (I think this is what led me to web design).
                 			</p>
 							<p>
-								Today, I'm available for new challenges, so <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >shoot me an email at hello@minabui.com &#129125;</a> and let's talk about it. Cheers! ✌️
+								Today, I'm available for new challenges.<br /> Shoot me an email at <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >hello@minabui.com &#129125;</a> and let's talk about it. Cheers! ✌️
                 			</p>
+							<br />
+							<div className="about-resume">
+								<a href="https://drive.google.com/file/d/1PxueVpsUbijF1EendpfWJW2og5mBCtHE/view?usp=sharing"
+									className="hidden-on-mobile"
+									title="Mina Bui's Resume"
+									target="_blank"
+									rel="noopener">
+									<button className="about-resume-button">View My Resume &#129125;</button>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div className="about-column-two">
+					<div className="about-headshot">
 						<div className="headshot-wrapper">
 							<img src={headshot} alt="Mina Bui's headshot" className="headshot" />
 						</div>
+
+					</div>
+					<div className="about-fun-facts">
+						<h4>Specialties</h4>
+						<ul>
+							<li>JavaScript</li>
+							<li>React.js</li>
+							<li>Responsive Design</li>
+							<li>WordPress Development</li>
+						</ul>
 					</div>
 
 				</section>

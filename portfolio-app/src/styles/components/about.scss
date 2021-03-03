@@ -1,14 +1,39 @@
 // About
 
-.about-column-one {
+.about-me {
     grid-area: about-text;
+    margin-right: 25px;
 }
-.about-column-two {
+.about-headshot {
     grid-area: about-image;
+}
+.about-resume {
+    grid-area: about-resume;
+    text-align: center;
+    .about-resume-button {
+        border-radius: 25px;
+        border: 2px solid white;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+    .about-resume-button:hover {
+        border: 2px solid $orange;
+        color: $orange;
+        transition-duration: 0.4s;
+    }
+}
+.about-fun-facts {
+    grid-area: about-facts;
+    margin: 0 auto;
+    h4 {
+        font-weight: bold;
+    }
 }
 .about-wrapper {
     display: grid;
-    grid-template-areas: "about-text about-image";
+    grid-template-areas:
+        "about-text about-image"
+        "about-text about-facts";
 }
 .headshot {
     width: 300px;
@@ -23,7 +48,8 @@
         display: grid;
         grid-template-areas:
             "about-image"
-            "about-text";
+            "about-text"
+            "about-facts";
         p {
             font-size: 1.2em;
         }
@@ -38,5 +64,14 @@
     .headshot {
         margin-bottom: 30px;
         width: 200px;
+    }
+    .about-resume {
+        display: none;
+    }
+    .about-me {
+        margin-right: 0px;
+    }
+    .about-fun-facts {
+        margin: 0;
     }
 }

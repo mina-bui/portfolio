@@ -225,12 +225,12 @@ const Capstone = () => (
 						<div className="project-detail-links">
 							<a href="https://www.etoile.bcitwebdeveloper.ca/"
 								title="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Live Site &#129125;</button>
+								<button className="round-btn">Live Site &#129125;</button>
 							</a>
 
 							<a href="https://www.github.com/htpwebdesign/etoile"
 								title="https://www.github.com/htpwebdesign/etoile" target="_blank" rel="noopener" >
-								<button className="project-detail-links-buttons">Github &#129125;</button>
+								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>
