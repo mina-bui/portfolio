@@ -45,9 +45,10 @@ h3 {
 
 h4 {
     font-family: $bodyFont;
-    font-size: 2em;
+    font-size: 1.75em;
+    line-height: 32px;
     margin-bottom: 0.2em;
-    font-weight: bold;
+    font-weight: none;
 }
 
 // Paragraphs, Lists, Links
@@ -87,14 +88,7 @@ button:hover {
     border: 2px solid $light;
     transition-duration: 0.4s;
 }
-@media only screen and (max-width: 606px) {
-    .capstone-live-link,
-    .movieapp-live-link,
-    .portfolio-live-link,
-    .brochure-live-link {
-        text-align: center;
-    }
-}
+
 // text selection color
 ::selection {
     background: purple; /* WebKit/Blink Browsers */

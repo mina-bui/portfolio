@@ -14,6 +14,9 @@ import PortfolioSingleProjectMob from '../images/portfolio/single-project-mobile
 import PortfolioMoodBoard from '../images/portfolio/portfolio-mood-board.png';
 import PortfolioSiteMap from '../images/portfolio/portfolio-site-map-1.png';
 import PopupMessage from '../images/popup-message.png';
+// react-reveal for animations!
+// (note: it's only animating what the user can see in the browser to prevent slowing down the site)
+import Reveal from 'react-reveal/Reveal';
 
 
 const options = {
@@ -70,43 +73,50 @@ const Portfolio = () => (
 		</Helmet>
 		<main>
 			<section>
-				<div className="page-info">
-					<div className="breadcrumb">
-						<Link to={'/'}>Home</Link> &#x2013; React Portfolio
+				<Reveal>
+					<div className="page-info">
+						<div className="breadcrumb">
+							<Link to={'/'}>Home</Link> &#x2013; React Portfolio
 					</div>
 
-					<br /><br />
-					<h2 className="project-detail-title">React Portfolio</h2>
-					<h2 className="project-detail-subtitle">Showcasing my BCIT projects.</h2>
-				</div>
+						<br /><br />
+						<h2 className="project-detail-title">React Portfolio</h2>
+						<h2 className="project-detail-subtitle">Showcasing my BCIT projects.</h2>
+					</div>
+				</Reveal>
 				<div className="page-text">
-					<div className="project-detail">
-						<h3 className="project-detail-title">Project Overview</h3>
-						<p>
-							I worked alone to produce my portfolio site, whose main goal is to showcase the projects I've designed and developed during my time in the BCIT Front End Developer program. The website was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then adding in the HTML, Sass, and JS files. I wanted to create an enjoyable, seamless user experience where I could show my love for design and coding.
+					<Reveal>
+						<div className="project-detail">
+							<h3 className="project-detail-title">Project Overview</h3>
+							<p>
+								In February 2021, I worked alone to produce my portfolio site, whose main goal is to showcase the projects I've designed and developed during my time in the BCIT Front End Developer program. The website was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then adding in the HTML, Sass, and JS files. I wanted to create an enjoyable, seamless user experience where I could show my love for design and coding.
 						</p>
-						<ul className="project-technologies">
-							<li>JavaScript</li>
-							<li>ReactJS</li>
-							<li>Sass</li>
-							<li>HTML5</li>
-							<li>GitHub</li>
-						</ul>
-					</div>
-					<div className="project-detail">
-						<h3 className="project-detail-title">Design and Planning</h3>
-
-						{/* Mood Board */}
-						<div className="project-design-planning-gallery">
-							<SRLWrapper options={options}>
-								<a href={PortfolioMoodBoard}>
-									<img src={PortfolioMoodBoard}
-										alt="The mood board, which features a variety of modern but bright images that I wanted my portfolio site to envoke."
-										id="etoile-ia-background"
-										title="Click to view full screen" />
-								</a>
-							</SRLWrapper>
+							<ul className="project-technologies">
+								<li>JavaScript</li>
+								<li>ReactJS</li>
+								<li>Sass</li>
+								<li>HTML5</li>
+								<li>GitHub</li>
+							</ul>
 						</div>
+					</Reveal>
+
+					<div className="project-detail">
+						<Reveal>
+							<h3 className="project-detail-title">Design and Planning</h3>
+
+							{/* Mood Board */}
+							<div className="project-design-planning-gallery">
+								<SRLWrapper options={options}>
+									<a href={PortfolioMoodBoard}>
+										<img src={PortfolioMoodBoard}
+											alt="The mood board, which features a variety of modern but bright images that I wanted my portfolio site to envoke."
+											id="etoile-ia-background"
+											title="Click to view full screen" />
+									</a>
+								</SRLWrapper>
+							</div>
+						</Reveal>
 						{/* Content Plan */}
 						<div className="project-design-planning-gallery">
 							<SRLWrapper options={options}>
@@ -197,7 +207,7 @@ const Portfolio = () => (
 							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
-							<img src={PopupMessage} alt="Popup computer message" className="hidden-on-mobile" />
+							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>
 				</div>

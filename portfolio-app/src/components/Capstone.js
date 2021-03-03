@@ -22,7 +22,9 @@ import CapContactImageMob from '../images/capstone-mobile/capstone-contact-mobil
 import CapProductImageMob from '../images/capstone-mobile/capstone-product-mobile.png';
 import CapShopImageMob from '../images/capstone-mobile/capstone-shop-mobile.png';
 import PopupMessage from '../images/popup-message.png';
-
+// react-reveal for animations!
+// (note: it's only animating what the user can see in the browser to prevent slowing down the site)
+import Reveal from 'react-reveal/Reveal';
 
 
 const options = {
@@ -79,50 +81,56 @@ const Capstone = () => (
 		</Helmet>
 		<main>
 			<section>
-				<div className="page-info">
-					<div className="breadcrumb">
-						<Link to={'/'}>Home</Link> &#x2013; Ecommerce Site
+				<Reveal>
+					<div className="page-info">
+						<div className="breadcrumb">
+							<Link to={'/'}>Home</Link> &#x2013; Ecommerce Site
 					</div>
 
-					<br /><br />
-					<h2 className="project-detail-title">Etoile &#x2014; <br class="mobile" /> Ecommerce Site</h2>
-					<h2 className="project-detail-subtitle">Building a dynamic WordPress store.</h2>
-				</div>
+						<br /><br />
+						<h2 className="project-detail-title">Etoile &#x2014; <br class="mobile" /> Ecommerce Site</h2>
+						<h2 className="project-detail-subtitle">Building a dynamic WordPress store.</h2>
+					</div>
+				</Reveal>
+
 				<div className="page-text">
-					<div className="project-detail">
-						<h3 className="project-detail-title">Project Overview</h3>
-						<p>
-							I collaborated remotely in a team of three to produce ETOILE, a fictional apparel e-commerce store, whose mission is to combine minimalist designs with high quality fabrics. It enables users to purchase from various designer collections, as well as adding customizations, such as uploading their own images and adding embroidery.
+					<Reveal>
+						<div className="project-detail">
+							<h3 className="project-detail-title">Project Overview</h3>
+							<p>
+								In February 2021, I collaborated remotely in a team of three to produce ETOILE, a fictional apparel e-commerce store, whose mission is to combine minimalist designs with high quality fabrics. It enables users to purchase from various designer collections, as well as adding customizations, such as uploading their own images and adding embroidery.
 						</p>
-						<p>
-							The website was created using WordPress, PHP, JavaScript, Sass and GitHub with team members <a href="https://github.com/janice-lin" title="Github: janice-lin" target="_blank" rel="noopener" >Janice Lin &#129125;</a> and <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a>. My role was to build an attractive UI design for the client's Wordpress interface, as well as for customers visiting the site.
+							<p>
+								The website was created using WordPress, PHP, JavaScript, Sass and GitHub with team members <a href="https://github.com/janice-lin" title="Github: janice-lin" target="_blank" rel="noopener" >Janice Lin &#129125;</a> and <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a>. My role was to build an attractive UI design for the client's Wordpress interface, as well as for customers visiting the site.
 						</p>
-						<ul className="project-technologies">
+							<ul className="project-technologies">
 
-							<li>WordPress</li>
-							<li>WooCommerce</li>
-							<li>PHP</li>
-							<li>Sass</li>
-							<li>JavaScript</li>
-							<li>GitHub</li>
-						</ul>
-					</div>
-					<div className="project-detail">
-						<h3 className="project-detail-title">Design and Planning</h3>
-						<div className="project-design-planning-gallery">
-							<SRLWrapper options={options}>
-								<a href={CapIA}>
-									<img src={CapIA}
-										alt="High fidelity home page mockup."
-										id="etoile-ia-background"
-										title="Click to view full screen" />
-								</a>
-							</SRLWrapper>
+								<li>WordPress</li>
+								<li>WooCommerce</li>
+								<li>PHP</li>
+								<li>Sass</li>
+								<li>JavaScript</li>
+								<li>GitHub</li>
+							</ul>
 						</div>
+					</Reveal>
+					<div className="project-detail">
+						<Reveal>
+							<h3 className="project-detail-title">Design and Planning</h3>
+							<div className="project-design-planning-gallery">
+								<SRLWrapper options={options}>
+									<a href={CapIA}>
+										<img src={CapIA}
+											alt="High fidelity home page mockup."
+											id="etoile-ia-background"
+											title="Click to view full screen" />
+									</a>
+								</SRLWrapper>
+							</div>
+						</Reveal>
 						<p>
 							One of the most important steps in the planning process was to create an information architecture map to ensure we were creating the correct PHP files. Given the nature of our products, we decided to keep the product categories simple. We later decided to add gift cards, however.
-						</p>
-
+							</p>
 						<div className="project-detail-gallery">
 							<div className="project-detail-gallery-capstone">
 								<SRLWrapper options={options}>
@@ -230,7 +238,7 @@ const Capstone = () => (
 							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
-							<img src={PopupMessage} alt="Popup computer message" className="hidden-on-mobile" />
+							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>
 				</div>

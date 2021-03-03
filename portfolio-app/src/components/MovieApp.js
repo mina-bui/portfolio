@@ -24,6 +24,9 @@ import AboutImage from '../images/filmdex-desktop/filmdex-about-desktop.png';
 // Import ReactPlayer to show video of site walkthrough
 import ReactPlayer from 'react-player/youtube';
 import PopupMessage from '../images/popup-message.png';
+// react-reveal for animations!
+// (note: it's only animating what the user can see in the browser to prevent slowing down the site)
+import Reveal from 'react-reveal/Reveal';
 
 const options = {
 	settings: {
@@ -79,40 +82,45 @@ const Projects = () => (
 		</Helmet>
 		<main>
 			<section>
-				<div className="page-info">
-					<div className="breadcrumb">
-						<Link to={'/'}>Home</Link> &#x2013; React Movie App
+				<Reveal>
+					<div className="page-info">
+						<div className="breadcrumb">
+							<Link to={'/'}>Home</Link> &#x2013; React Movie App
 					</div>
 
-					<br /><br />
-					<h2 className="project-detail-title">Filmdex &#x2014; <br class="mobile" /> React Movie App</h2>
-					<h2 className="project-detail-subtitle">A film database using the TMDb API.</h2>
-				</div>
+						<br /><br />
+						<h2 className="project-detail-title">Filmdex &#x2014; <br class="mobile" /> React Movie App</h2>
+						<h2 className="project-detail-subtitle">A film database using the TMDb API.</h2>
+					</div>
+				</Reveal>
+
 				<div className="page-text">
-					<div className="project-detail">
-						<h3 className="project-detail-title">Project Overview</h3>
-						<p>
-							I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
+					<Reveal>
+						<div className="project-detail">
+							<h3 className="project-detail-title">Project Overview</h3>
+							<p>
+								In January 2021, I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. (Yes, the name is a play on words with Pokédex). There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
 						</p>
-						<p>
-							The web application was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.
+							<p>
+								The web application was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.
 						</p>
-						<ul className="project-technologies">
-							<li>JavaScript</li>
-							<li>ReactJS</li>
-							<li>Sass</li>
-							<li>HTML5</li>
-							<li>GitHub</li>
-							<li>Photoshop</li>
-						</ul>
-					</div>
-
-					<div className="project-detail">
-						<h3 className="project-detail-title">How It Works</h3>
-						<div className="project-detail-video">
-							<ReactPlayer url='https://youtu.be/ou_ezRP-iX8' />
+							<ul className="project-technologies">
+								<li>JavaScript</li>
+								<li>ReactJS</li>
+								<li>Sass</li>
+								<li>HTML5</li>
+								<li>GitHub</li>
+								<li>Photoshop</li>
+							</ul>
 						</div>
-					</div>
+
+						<div className="project-detail">
+							<h3 className="project-detail-title">How It Works</h3>
+							<div className="project-detail-video">
+								<ReactPlayer url='https://youtu.be/ou_ezRP-iX8' />
+							</div>
+						</div>
+					</Reveal>
 					<div className="project-detail">
 						<h3 className="project-detail-title">Design and Planning</h3>
 						{/* Desktop Mockup */}
@@ -268,7 +276,7 @@ const Projects = () => (
 							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
-							<img src={PopupMessage} alt="Popup computer message" className="hidden-on-mobile" />
+							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>
 				</div>

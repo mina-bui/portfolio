@@ -105,5 +105,12 @@ section {
 
 // Popup Message Image
 .popup-message-container {
-    text-align: center;
+    box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+}
+// Hide certain elements on mobile
+@media only screen and (max-width: 606px) {
+    .popup-message-container,
+    .home-banner {
+        display: none;
+    }
 }
