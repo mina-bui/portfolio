@@ -91,7 +91,7 @@ const Projects = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Project Overview</h3>
 						<p>
-							I collaborated remotely in a team of two to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
+							I collaborated remotely with <a href="https://github.com/v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
 						</p>
 						<p>
 							The web application was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.

@@ -93,7 +93,7 @@ const Brochure = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Project Overview</h3>
 						<p>
-							I collaborated remotely in a team of three to produce Keep It Cheesy, a fictional gourmet cheese store, showcasing their production process and product selection. It enables users to send inquiries and custom orders using a contact form. The website was created using JavaScript, Sass, HTML, and GitHub. My role was to build the HTML and develop the styling, particularly on the Contact page.
+							I collaborated remotely in a team of three to produce Keep It Cheesy, a fictional gourmet cheese store, showcasing their production process and product selection. It enables users to send inquiries and custom orders using a contact form. The website was created using JavaScript, Sass, HTML, and GitHub with team members <a href="https://github.com/v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> and <a href="https://github.com/omcdanielfeilden" target="_blank" rel="noopener" >Olivia Feilden &#129125;</a>. My role was to build the HTML and develop the styling, particularly on the Contact page.
 						</p>
 						<ul className="project-technologies">
 							<li>HTML5</li>
