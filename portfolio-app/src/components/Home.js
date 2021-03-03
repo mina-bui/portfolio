@@ -31,6 +31,7 @@ const Home = (props) => {
                                     Front end web developer &#x26; designer in Vancouver. <br />
                                     Focused on building simple, responsive user interfaces.
                                 </h4>
+
                                 <div className="contact-btn-wrapper">
                                     <Link to={'/about'}>
                                         <button className="contact-btn">Learn More</button>
