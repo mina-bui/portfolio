@@ -119,25 +119,25 @@ const Projects = () => (
 							<SRLWrapper options={options}>
 								<a href={HomeMockup}>
 									<img src={HomeMockup}
-										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+										alt="A mockup of Filmdex's home page made in Adobe Photoshop, which would include a CSS grid of movies, a side navigation bar, and a row of sorting buttons on top. We later moved the navigation bar to the top to make it more intuitive for the user, as we wanted to give more focus to the search functionality." />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={SingleMockup}>
 									<img src={SingleMockup}
-										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+										alt="A mockup of the Single Movie page, which would prominently display the poster as well as the movie's overview, rating, and a favorite button to add to the interactivity of the site. We later decided to change the format, but our first iteration of the single movie page has a special spot in our heart." />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={FavouritesMockup}>
 									<img src={FavouritesMockup}
-										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+										alt="The favorite movie page when it has no movies added. It would display instructions on how to add and remove a movie. When movies are added, it would display similarly to the home page (in a CSS grid)." />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={AboutMockup}>
 									<img src={AboutMockup}
-										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+										alt="The About page, which has information on what Filmdex is and on the development team. We later added the TMDb logo, as per their requirements for using their public API." />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -153,7 +153,7 @@ const Projects = () => (
 								<SRLWrapper options={options}>
 									<a href={HomeMockupMob}>
 										<img src={HomeMockupMob}
-											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+											alt="The mobile version of the home page. We later changed this to display two movies at a time on mobile, and three movies for those with massive modern phones." />
 									</a>
 								</SRLWrapper>
 							</div>
@@ -163,19 +163,19 @@ const Projects = () => (
 								<SRLWrapper options={options}>
 									<a href={SingleMockupMob}>
 										<img src={SingleMockupMob}
-											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+											alt="The single movie page in mobile, which display the CSS grid as blocks." />
 									</a>
 								</SRLWrapper>
 								<SRLWrapper options={options}>
 									<a href={FavouritesMockupMob}>
 										<img src={FavouritesMockupMob}
-											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+											alt="The favourites page in mobile, which is identical to the desktop version, except slightly smaller." />
 									</a>
 								</SRLWrapper>
 								<SRLWrapper options={options}>
 									<a href={AboutMockupMob}>
 										<img src={AboutMockupMob}
-											alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+											alt="The About page in mobile, which is also similar to the desktop version." />
 									</a>
 								</SRLWrapper>
 							</div>
