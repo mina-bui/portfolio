@@ -25,13 +25,16 @@ h2.project-detail-subtitle {
 }
 
 // Hide certain elements on mobile
-@media only screen and (max-width: 606px) {
+@media only screen and (max-width: 819px) {
     .hidden-on-mobile {
         display: none;
     }
+    .project-laptop-wrapper {
+        margin-top: 50px;
+    }
 }
 // Show only certain elements on mobile
-@media only screen and (min-width: 606px) {
+@media only screen and (min-width: 820px) {
     .mobile {
         display: none;
     }
@@ -199,9 +202,21 @@ code {
     box-shadow: 2px 2px 2px black;
     border-radius: 100px;
 }
-.back-to-top:hover {
+.next-wrapper {
+    text-align: center;
+}
+.next-btn {
+    margin: 50px 0px;
+    padding: 10px 12px;
     border: none;
     background-color: white;
     color: $orange;
+    border-radius: 100px;
+}
+.back-to-top:hover,
+.next-btn:hover {
+    border: none;
+    background-color: $orange;
+    color: white;
     transition-duration: 0.4s;
 }

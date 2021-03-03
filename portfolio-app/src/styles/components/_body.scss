@@ -73,7 +73,7 @@ a:hover:not(nav a) {
 
 // Buttons
 
-button:not(.back-to-top) {
+button:not(.back-to-top, .next-btn) {
     background-color: transparent;
     border: 2px solid $light;
     border-radius: 25px;
@@ -81,7 +81,7 @@ button:not(.back-to-top) {
     color: $light;
     font-weight: bold;
 }
-button:hover:not(.back-to-top) {
+button:hover:not(.back-to-top, .next-btn) {
     background-color: $light;
     color: $orange;
     font-weight: bold;

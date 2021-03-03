@@ -94,12 +94,18 @@ const Capstone = () => (
 						<h2 className="project-detail-title">Etoile &#x2014; <br class="mobile" /> Ecommerce Site</h2>
 						<h2 className="project-detail-subtitle">Building a dynamic WordPress store.</h2>
 					</div>
-
+					<div className="hidden-on-mobile">
+						<div className="next-wrapper">
+							<a href="#next">
+								<button className="next-btn">&#x2B9F;</button>
+							</a>
+						</div>
+					</div>
 				</Reveal>
 				<div className="page-text">
 					<Reveal>
 						<div className="project-detail">
-							<h3 className="project-detail-title">Project Overview</h3>
+							<h3 className="project-detail-title" id="next">Project Overview</h3>
 							<p>
 								In February 2021, I collaborated remotely in a team of three to produce ETOILE, a fictional apparel e-commerce store, whose mission is to combine minimalist designs with high quality fabrics. It enables users to purchase from various designer collections, as well as adding customizations, such as uploading their own images and adding embroidery.
 						</p>
@@ -232,7 +238,7 @@ const Capstone = () => (
 						<p className="mobile">
 							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
-						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>

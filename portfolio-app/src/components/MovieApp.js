@@ -98,13 +98,19 @@ const Projects = () => (
 						<h2 className="project-detail-title">Filmdex &#x2014; <br class="mobile" /> React Movie App</h2>
 						<h2 className="project-detail-subtitle">A film database using the TMDb API.</h2>
 					</div>
-
+					<div className="hidden-on-mobile">
+						<div className="next-wrapper">
+							<a href="#next">
+								<button className="next-btn">&#x2B9F;</button>
+							</a>
+						</div>
+					</div>
 				</Reveal>
 
 				<div className="page-text">
 					<Reveal>
 						<div className="project-detail">
-							<h3 className="project-detail-title">Project Overview</h3>
+							<h3 className="project-detail-title" id="next">Project Overview</h3>
 							<p>
 								In January 2021, I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. (Yes, the name is a play on words with Pokédex). There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
 						</p>
@@ -282,7 +288,7 @@ const Projects = () => (
 						<p className="mobile">
 							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
-						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >
+						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>
