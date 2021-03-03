@@ -23,6 +23,7 @@ h2.project-detail-subtitle {
         font-family: $bodyFont;
     }
 }
+
 // Hide certain elements on mobile
 @media only screen and (max-width: 606px) {
     .hidden-on-mobile {
@@ -170,6 +171,7 @@ code {
 }
 .project-detail-links-buttons {
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 // Contact me message at the end of every project

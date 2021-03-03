@@ -21,7 +21,7 @@ const Footer = () => (
                     <a href="mailto:hello@minabui.com">
                         <img src={email}
                             alt="Email"
-                            title="Email"
+                            title="mailto:hello@minabui.com"
                             target="_blank"
                             rel="noopener" />
                     </a>
@@ -30,7 +30,7 @@ const Footer = () => (
                     <a href="https://www.github.com/mina-bui">
                         <img src={github}
                             alt="Github"
-                            title="Github"
+                            title="Github: mina-bui"
                             target="_blank"
                             rel="noopener" />
                     </a>
@@ -39,7 +39,7 @@ const Footer = () => (
                     <a href="https://codepen.io/mina-bui">
                         <img src={codepen}
                             alt="Codepen"
-                            title="Codepen"
+                            title="Codepen: mina-bui"
                             target="_blank"
                             rel="noopener" />
                     </a>
@@ -48,7 +48,7 @@ const Footer = () => (
                     <a href="https://www.linkedin.com/in/mina-bui/">
                         <img src={linkedin}
                             alt="Linkedin"
-                            title="Linkedin"
+                            title="Linkedin: mina-bui"
                             target="_blank"
                             rel="noopener" />
                     </a>
@@ -57,7 +57,7 @@ const Footer = () => (
                     <a href="https://twitter.com/webdevmina">
                         <img src={twitter}
                             alt="Twitter"
-                            title="Twitter"
+                            title="Twitter: webdevmina"
                             className="twitter-icon"
                             target="_blank"
                             rel="noopener" />

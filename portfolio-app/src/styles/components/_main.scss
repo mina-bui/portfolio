@@ -7,6 +7,15 @@ section {
     padding: 0px 25px;
 }
 
+// Main Banner
+.home-banner-wrapper {
+    text-align: center;
+}
+.home-banner {
+    height: 100%;
+    width: 300px;
+}
+
 // Project Title and Description
 .capstone-card {
     grid-area: capstone;

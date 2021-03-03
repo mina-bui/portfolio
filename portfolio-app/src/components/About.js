@@ -33,14 +33,14 @@ const About = () => (
 							Growing up surrounded by BC's landscape sparked an interest in sustainability, so I went to study  Geography &#x26; GIS at SFU, where I built reports and maps using spatial data. (I think this is what led me to web design).
                 		</p>
 						<p>
-							Today, I'm available for new challenges, so <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" >shoot me an email at hello@minabui.com &#129125;</a> and let's talk about it. Cheers!
+							Today, I'm available for new challenges, so <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" >shoot me an email at hello@minabui.com &#129125;</a> and let's talk about it. Cheers!
                 		</p>
 					</div>
 				</div>
 
 				<div className="about-column-two">
 					<div className="headshot-wrapper">
-						<img src={headshot} alt="Headshot" className="headshot" />
+						<img src={headshot} alt="Mina Bui's headshot" className="headshot" />
 					</div>
 				</div>
 			</section>

@@ -3,6 +3,8 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import headshot from '../images/social-media/headshot.png';
+
 
 const Home = (props) => {
 
@@ -19,8 +21,11 @@ const Home = (props) => {
                 <section>
                     <div className="home-introduction">
                         <div className="page-info">
+                            <div className="home-banner-wrapper">
+                                <img src={headshot} alt="Home Banner" className="home-banner" />
+                            </div>
                             <h2 id="text">
-                                Front end web developer &#x26; designer in Vancouver. Focused on building simple, responsive user interfaces.
+                                Mina Bui is a front end web developer &#x26; designer in Vancouver focused on building simple, responsive user interfaces.
                             </h2>
                         </div>
                     </div>
@@ -34,7 +39,9 @@ const Home = (props) => {
                             </p>
                         </div>
                         <div className="capstone-live-link">
-                            <a href="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" rel="noopener" >
+                            <a href="https://www.etoile.bcitwebdeveloper.ca/"
+                                title="https://www.etoile.bcitwebdeveloper.ca/"
+                                target="_blank" rel="noopener" >
                                 <button>Live Site &#129125;</button>
                             </a>
                         </div>
@@ -45,7 +52,9 @@ const Home = (props) => {
                             </p>
                         </div>
                         <div className="movieapp-live-link">
-                            <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noopener" >
+                            <a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
+                                title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
+                                target="_blank" rel="noopener" >
                                 <button>Live Site &#129125;</button>
                             </a>
                         </div>
@@ -56,7 +65,9 @@ const Home = (props) => {
                             </p>
                         </div>
                         <div className="portfolio-live-link">
-                            <a href="https://www.minabui.com/" target="_blank" rel="noopener" >
+                            <a href="https://www.minabui.com/"
+                                title="https://www.minabui.com/"
+                                target="_blank" rel="noopener" >
                                 <button>Live Site &#129125;</button>
                             </a>
                         </div>
@@ -67,7 +78,9 @@ const Home = (props) => {
                             </p>
                         </div>
                         <div className="brochure-live-link">
-                            <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noopener" >
+                            <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
+                                title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
+                                target="_blank" rel="noopener" >
                                 <button>Live Site &#129125;</button>
                             </a>
                         </div>

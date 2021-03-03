@@ -179,7 +179,12 @@ const Portfolio = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://www.github.com/mina-bui/portfolio" target="_blank" rel="noopener" >
+							<a href="https://www.minabui.com"
+								title="https://www.minabui.com" target="_blank" rel="noopener" >
+								<button className="project-detail-links-buttons">Live Site &#129125;</button>
+							</a>
+							<a href="https://www.github.com/mina-bui/portfolio"
+								title="https://www.github.com/mina-bui/portfolio" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Github &#129125;</button>
 							</a>
 						</div>

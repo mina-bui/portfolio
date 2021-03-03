@@ -91,7 +91,7 @@ const Projects = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Project Overview</h3>
 						<p>
-							I collaborated remotely with <a href="https://github.com/v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
+							I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
 						</p>
 						<p>
 							The web application was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.
@@ -119,25 +119,29 @@ const Projects = () => (
 							<SRLWrapper options={options}>
 								<a href={HomeMockup}>
 									<img src={HomeMockup}
-										alt="A mockup of Filmdex's home page made in Adobe Photoshop, which would include a CSS grid of movies, a side navigation bar, and a row of sorting buttons on top. We later moved the navigation bar to the top to make it more intuitive for the user, as we wanted to give more focus to the search functionality." />
+										alt="A mockup of Filmdex's home page made in Adobe Photoshop, which would include a CSS grid of movies, a side navigation bar, and a row of sorting buttons on top. We later moved the navigation bar to the top to make it more intuitive for the user, as we wanted to give more focus to the search functionality."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={SingleMockup}>
 									<img src={SingleMockup}
-										alt="A mockup of the Single Movie page, which would prominently display the poster as well as the movie's overview, rating, and a favorite button to add to the interactivity of the site. We later decided to change the format, but our first iteration of the single movie page has a special spot in our heart." />
+										alt="A mockup of the Single Movie page, which would prominently display the poster as well as the movie's overview, rating, and a favorite button to add to the interactivity of the site. We later decided to change the format, but our first iteration of the single movie page has a special spot in our heart."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={FavouritesMockup}>
 									<img src={FavouritesMockup}
-										alt="The favorite movie page when it has no movies added. It would display instructions on how to add and remove a movie. When movies are added, it would display similarly to the home page (in a CSS grid)." />
+										alt="The favorite movie page when it has no movies added. It would display instructions on how to add and remove a movie. When movies are added, it would display similarly to the home page (in a CSS grid)."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={AboutMockup}>
 									<img src={AboutMockup}
-										alt="The About page, which has information on what Filmdex is and on the development team. We later added the TMDb logo, as per their requirements for using their public API." />
+										alt="The About page, which has information on what Filmdex is and on the development team. We later added the TMDb logo, as per their requirements for using their public API."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -153,7 +157,8 @@ const Projects = () => (
 								<SRLWrapper options={options}>
 									<a href={HomeMockupMob}>
 										<img src={HomeMockupMob}
-											alt="The mobile version of the home page. We later changed this to display two movies at a time on mobile, and three movies for those with massive modern phones." />
+											alt="The mobile version of the home page. We later changed this to display two movies at a time on mobile, and three movies for those with massive modern phones."
+											title="Click to view full screen" />
 									</a>
 								</SRLWrapper>
 							</div>
@@ -163,19 +168,22 @@ const Projects = () => (
 								<SRLWrapper options={options}>
 									<a href={SingleMockupMob}>
 										<img src={SingleMockupMob}
-											alt="The single movie page in mobile, which display the CSS grid as blocks." />
+											alt="The single movie page in mobile, which display the CSS grid as blocks."
+											title="Click to view full screen" />
 									</a>
 								</SRLWrapper>
 								<SRLWrapper options={options}>
 									<a href={FavouritesMockupMob}>
 										<img src={FavouritesMockupMob}
-											alt="The favourites page in mobile, which is identical to the desktop version, except slightly smaller." />
+											alt="The favourites page in mobile, which is identical to the desktop version, except slightly smaller."
+											title="Click to view full screen" />
 									</a>
 								</SRLWrapper>
 								<SRLWrapper options={options}>
 									<a href={AboutMockupMob}>
 										<img src={AboutMockupMob}
-											alt="The About page in mobile, which is also similar to the desktop version." />
+											alt="The About page in mobile, which is also similar to the desktop version."
+											title="Click to view full screen" />
 									</a>
 								</SRLWrapper>
 							</div>
@@ -191,22 +199,26 @@ const Projects = () => (
 							<SRLWrapper options={options}>
 								<a href={SearchImage}>
 									<img src={SearchImage}
-										alt="The Home page, where users can sort by Most Popular, Top Rated, Upcoming, and Now Playing. Users can scroll infinitely thanks to a 'Load More' button. This includes the search functionality, where users can search for movies and have instantaneous live search results. " />
+										alt="The Home page, where users can sort by Most Popular, Top Rated, Upcoming, and Now Playing. Users can scroll infinitely thanks to a 'Load More' button. This includes the search functionality, where users can search for movies and have instantaneous live search results."
+										title="Click to view full screen" />
 								</a>
 
 								<a href={SingleImage}>
 									<img src={SingleImage}
-										alt="The Single Movie page, where users can view the movie poster, directors, IMDB rating, and actors. Users can also favorite movies by clicking on the Star button." />
+										alt="The Single Movie page, where users can view the movie poster, directors, IMDB rating, and actors. Users can also favorite movies by clicking on the Star button."
+										title="Click to view full screen" />
 								</a>
 
 								<a href={FavouritesImage}>
 									<img src={FavouritesImage}
-										alt="The Favourites page, where users can see which movies they have favourited (which are stored in localStorage). By clicking on the movies on this page, they can click the Star button again to unfavourite a movie. " />
+										alt="The Favourites page, where users can see which movies they have favourited (which are stored in localStorage). By clicking on the movies on this page, they can click the Star button again to unfavourite a movie."
+										title="Click to view full screen" />
 								</a>
 
 								<a href={AboutImage}>
 									<img src={AboutImage}
-										alt="The About page, which talks about the web application, the API used, and the development team." />
+										alt="The About page, which talks about the web application, the API used, and the development team."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -235,21 +247,24 @@ const Projects = () => (
 							Now, see this excerpt of our homepage using functional components and <code>useEffect()</code>. It's much more readable and thus, more easily debugged. As a team, we preferred this method.
 						</p>
 					</div>
+
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noopener" >
+							<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
+								title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Live Site &#129125;</button>
 							</a>
 
-							<a href="https://www.github.com/mina-bui/twd-movie-app-final-version" target="_blank" rel="noopener" >
+							<a href="https://www.github.com/mina-bui/twd-movie-app-final-version"
+								title="https://www.github.com/mina-bui/twd-movie-app-final-version" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Github &#129125;</button>
 							</a>
 						</div>
 					</div>
 					<div className="project-contact-me">
 						<p>
-							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 					</div>
 				</div>

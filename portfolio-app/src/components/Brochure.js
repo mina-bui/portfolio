@@ -93,7 +93,7 @@ const Brochure = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Project Overview</h3>
 						<p>
-							I collaborated remotely in a team of three to produce Keep It Cheesy, a fictional gourmet cheese store, showcasing their production process and product selection. It enables users to send inquiries and custom orders using a contact form. The website was created using JavaScript, Sass, HTML, and GitHub with team members <a href="https://github.com/v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> and <a href="https://github.com/omcdanielfeilden" target="_blank" rel="noopener" >Olivia Feilden &#129125;</a>. My role was to build the HTML and develop the styling, particularly on the Contact page.
+							I collaborated remotely in a team of three to produce Keep It Cheesy, a fictional gourmet cheese store, showcasing their production process and product selection. It enables users to send inquiries and custom orders using a contact form. The website was created using JavaScript, Sass, HTML, and GitHub with team members <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noopener" >Vinson Nguyen &#129125;</a> and <a href="https://github.com/omcdanielfeilden" title="Github: omcdanielfeilden" target="_blank" rel="noopener" >Olivia Feilden &#129125;</a>. My role was to build the HTML and develop the styling, particularly on the Contact page.
 						</p>
 						<ul className="project-technologies">
 							<li>HTML5</li>
@@ -116,10 +116,12 @@ const Brochure = () => (
 
 						{/* Color Palette */}
 						<div className="project-design-planning-gallery">
+
 							<SRLWrapper options={options}>
 								<a href={BrochurePalette}>
 									<img src={BrochurePalette}
-										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe." />
+										alt="The chosen website color palette, that has been tested with Adobe colors to confirm that it is color blind safe."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -132,7 +134,8 @@ const Brochure = () => (
 							<SRLWrapper options={options}>
 								<a href={BrochureContentPlan}>
 									<img src={BrochureContentPlan}
-										alt="The content plan for my part of the project. We later added more options, including radio and checkbox options." />
+										alt="The content plan for my part of the project. We later added more options, including radio and checkbox options."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -147,19 +150,22 @@ const Brochure = () => (
 						<SRLWrapper options={options}>
 							<a href={BrochureHomeMockup}>
 								<img src={BrochureHomeMockup}
-									alt="A wireframe of the Home page." />
+									alt="A wireframe of the Home page."
+									title="Click to view full screen" />
 							</a>
 						</SRLWrapper>
 						<SRLWrapper options={options}>
 							<a href={BrochureAboutMockup}>
 								<img src={BrochureAboutMockup}
-									alt="A high fidelity mockup of the About page." />
+									alt="A high fidelity mockup of the About page."
+									title="Click to view full screen" />
 							</a>
 						</SRLWrapper>
 						<SRLWrapper options={options}>
 							<a href={BrochureContactMockup}>
 								<img src={BrochureContactMockup}
-									alt="A high fidelity mockup of the Contact page." />
+									alt="A high fidelity mockup of the Contact page."
+									title="Click to view full screen" />
 
 							</a>
 						</SRLWrapper>
@@ -174,19 +180,22 @@ const Brochure = () => (
 							<SRLWrapper options={options}>
 								<a href={BrochureAboutWireframe}>
 									<img src={BrochureAboutWireframe}
-										alt="A wireframe of the About page." />
+										alt="A wireframe of the About page."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={BrochureAboutWireframeMob}>
 									<img src={BrochureAboutWireframeMob}
-										alt="A wireframe of the About page in mobile." />
+										alt="A wireframe of the About page in mobile."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
 								<a href={BrochureProcessWireframe}>
 									<img src={BrochureProcessWireframe}
-										alt="A wireframe of the Process page." />
+										alt="A wireframe of the Process page."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -202,19 +211,23 @@ const Brochure = () => (
 							<SRLWrapper options={options}>
 								<a href={HomeImage}>
 									<img src={HomeImage}
-										alt="The Home page, which features an opening banner and a Call to Action." />
+										alt="The Home page, which features an opening banner and a Call to Action."
+										title="Click to view full screen" />
 								</a>
 								<a href={ProcessImage}>
 									<img src={ProcessImage}
-										alt="The Cheese Production page, which showcases the process through CSS grids and flexboxes." />
+										alt="The Cheese Production page, which showcases the process through CSS grids and flexboxes."
+										title="Click to view full screen" />
 								</a>
 								<a href={AboutImage}>
 									<img src={AboutImage}
-										alt="The About Us page, which tells customers about the client's missions and values." />
+										alt="The About Us page, which tells customers about the client's missions and values."
+										title="Click to view full screen" />
 								</a>
 								<a href={ContactImage}>
 									<img src={ContactImage}
-										alt="The Contact Us page, which allows users to send questions, messages, and orders. These custom orders include options such as delivery, pickup, and more." />
+										alt="The Contact Us page, which allows users to send questions, messages, and orders. These custom orders include options such as delivery, pickup, and more."
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 						</div>
@@ -240,17 +253,17 @@ const Brochure = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noopener" >
+							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Live Site &#129125;</button>
 							</a>
-							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noopener" >
+							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" title="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noopener" >
 								<button className="project-detail-links-buttons">Github &#129125;</button>
 							</a>
 						</div>
 					</div>
 					<div className="project-contact-me">
 						<p>
-							Questions about the process? <a href="mailto:hello@minabui.com" title="hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noopener" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 					</div>
 				</div>
