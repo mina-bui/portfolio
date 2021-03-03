@@ -42,7 +42,7 @@ const About = () => (
 									title="Mina Bui's Resume"
 									target="_blank"
 									rel="noreferrer">
-									<button className="about-resume-button">View My Resume </button>
+									<button className="about-resume-button">View Resume </button>
 								</a>
 							</div>
 						</div>
@@ -65,13 +65,6 @@ const About = () => (
 					</div>
 
 				</section>
-				<div className="mobile">
-					<div className="back-to-top-wrapper">
-						<a href="#top">
-							<button className="back-to-top">&#x2B9D;</button>
-						</a>
-					</div>
-				</div>
 			</Reveal>
 		</main>
 	</Fragment>
