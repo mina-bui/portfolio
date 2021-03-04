@@ -238,6 +238,11 @@ const Capstone = () => (
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
 						</a>
 					</div>
+					<div className="back-to-top-wrapper">
+						<a href="#top">
+							<button className="back-to-top">&#x2B9D;</button>
+						</a>
+					</div>
 				</div>
 			</section>
 		</main>

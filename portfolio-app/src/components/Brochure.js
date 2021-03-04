@@ -2,7 +2,6 @@
 
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
 // Import images for Design and Planning
 import BrochurePalette from '../images/brochure-desktop/brochure-adobe-color.jpeg';
 import BrochureContentPlan from '../images/brochure-desktop/brochure-content-plan.png';
@@ -271,7 +270,7 @@ const Brochure = () => (
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
 							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noreferrer" >
-								<button className="round-btn">Live Site </button>
+								<button className="round-btn">View Live </button>
 							</a>
 							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" title="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Github </button>
@@ -284,6 +283,11 @@ const Brochure = () => (
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
+						</a>
+					</div>
+					<div className="back-to-top-wrapper">
+						<a href="#top">
+							<button className="back-to-top">&#x2B9D;</button>
 						</a>
 					</div>
 				</div>

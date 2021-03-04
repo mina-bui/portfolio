@@ -26,10 +26,8 @@ import PopupMessage from '../images/popup-message.png';
 // react-reveal for animations!
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
-
 // Get images for project site previews
 import movieLaptop from '../images/filmdex-home-laptop.png';
-
 
 
 const options = {
@@ -84,7 +82,6 @@ const Projects = () => (
 			<meta name="keywords"
 				content="JavaScript developer, React developer, remote web developer, web redesign services, Front end web developer Vancouver, web designer Vancouver, responsive user interfaces, interactive web applications, site designs, BCIT front end developer, Vancouver web design, hire web designer Vancouver, BCIT TWD, BCIT FED" />
 		</Helmet>
-		
 		<main>
 			<section>
 				<Reveal>
@@ -288,6 +285,11 @@ const Projects = () => (
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
+						</a>
+					</div>
+					<div className="back-to-top-wrapper">
+						<a href="#top">
+							<button className="back-to-top">&#x2B9D;</button>
 						</a>
 					</div>
 				</div>
