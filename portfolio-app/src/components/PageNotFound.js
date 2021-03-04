@@ -7,16 +7,14 @@ const PageNotFound = () => (
 	<main>
 		<section>
 			<div className="page-info">
-				<h3>404 - Page Not Found</h3>
+				<h2>404 - Page Not Found</h2>
 			</div>
 			<div className="page-text">
-				<br /><br />
 				<p>
-					Whoops. We can't seem to find the page you're looking for.
+					We can't seem to find the page you're looking for.
 				</p>
-				<br /><br />
 				<Link to={'/'}>
-					<button className="round-btn">Back to Home</button>
+					<button>Back to Home</button>
 				</Link>
 			</div>
 		</section>

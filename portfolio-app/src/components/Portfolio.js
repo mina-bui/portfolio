@@ -2,6 +2,7 @@
 
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from 'react-router-dom';
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Wireframes
@@ -75,6 +76,9 @@ const Portfolio = () => (
 			<section>
 				<Reveal>
 					<div className="page-info">
+						<div className="breadcrumb">
+							<Link to={'/'}>Home</Link> &#x2013; React Portfolio
+					</div>
 						<div className="project-laptop-wrapper">
 							<img src={portfolioLaptop} alt="Portfolio homepage on laptop" className="project-laptop-banner" />
 						</div>
@@ -198,17 +202,17 @@ const Portfolio = () => (
 						<div className="project-detail-links">
 							<a href="https://www.minabui.com"
 								title="https://www.minabui.com" target="_blank" rel="noreferrer" >
-								<button className="round-btn">View Live </button>
+								<button className="round-btn">Live Site &#129125;</button>
 							</a>
 							<a href="https://www.github.com/mina-bui/portfolio"
 								title="https://www.github.com/mina-bui/portfolio" target="_blank" rel="noreferrer" >
-								<button className="round-btn">Github </button>
+								<button className="round-btn">Github &#129125;</button>
 							</a>
 						</div>
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. &#129125;</a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />

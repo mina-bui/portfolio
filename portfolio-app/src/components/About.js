@@ -2,6 +2,7 @@
 
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import headshot from '../images/social-media/headshot.png';
 // react-reveal for animations!
 import Reveal from 'react-reveal/Reveal';
@@ -19,6 +20,8 @@ const About = () => (
 			<Reveal>
 				<section className="about-wrapper">
 					<div className="about-me">
+						<Link to={'/'}>Home</Link> &#x2013; About
+						<br /><br />
 						<div className="page-info">
 							<h2>Hi, I'm Mina. </h2>
 						</div>
@@ -33,7 +36,7 @@ const About = () => (
 								Growing up surrounded by BC's landscape sparked an interest in sustainability, so I went to study  Geography &#x26; GIS at SFU, where I built reports and maps using spatial data. (I think this is what led me to web design).
                 			</p>
 							<p>
-								Today, I'm available for new challenges.<br /> Shoot me an email at <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" >hello@minabui.com </a> and let's talk about it. Cheers! ✌️
+								Today, I'm available for new challenges.<br /> Shoot me an email at <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" >hello@minabui.com &#129125;</a> and let's talk about it. Cheers! ✌️
                 			</p>
 							<br />
 							<div className="about-resume">
@@ -42,7 +45,7 @@ const About = () => (
 									title="Mina Bui's Resume"
 									target="_blank"
 									rel="noreferrer">
-									<button className="about-resume-button">View My Resume </button>
+									<button className="about-resume-button">View My Resume &#129125;</button>
 								</a>
 							</div>
 						</div>

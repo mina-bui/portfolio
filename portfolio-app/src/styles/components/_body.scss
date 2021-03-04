@@ -73,7 +73,7 @@ a:hover:not(nav a) {
 
 // Buttons
 
-.round-btn {
+button.round-btn:not(.back-to-top, .next-btn, .about-resume-button) {
     background-color: transparent;
     border: 2px solid $light;
     border-radius: 25px;
@@ -81,7 +81,7 @@ a:hover:not(nav a) {
     color: $light;
     font-weight: bold;
 }
-.round-btn:hover {
+button.round-btn:hover:not(.back-to-top, .next-btn, .about-resume-button) {
     background-color: $light;
     color: $orange;
     font-weight: bold;
