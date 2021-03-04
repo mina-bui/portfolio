@@ -18,10 +18,10 @@ import BrochureAboutWireframeMob from '../images/brochure-desktop/brochure-about
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Import screenshots of website
-import HomeImage from '../images/brochure-desktop/brochure-home-desktop.png';
-import ProcessImage from '../images/brochure-desktop/brochure-process-desktop.png';
-import AboutImage from '../images/brochure-desktop/brochure-about-desktop.png';
-import ContactImage from '../images/brochure-desktop/brochure-contact-desktop.png';
+import HomeImage from '../images/brochure-desktop/brochure-home-ss.png';
+import ProcessImage from '../images/brochure-desktop/brochure-process-ss.png';
+import AboutImage from '../images/brochure-desktop/brochure-about-ss.png';
+import ContactImage from '../images/brochure-desktop/brochure-contact-ss.png';
 // Import ReactPlayer to show video of site walkthrough
 import ReactPlayer from 'react-player/youtube';
 import PopupMessage from '../images/popup-message.png';
@@ -270,7 +270,7 @@ const Brochure = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html" target="_blank" rel="noreferrer" >
+							<a href="https://mbui.bcitwebdeveloper.ca/brochure/index.html" title="https://mbui.bcitwebdeveloper.ca/brochure/index.html" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Live Site </button>
 							</a>
 							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" title="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noreferrer" >
@@ -280,7 +280,7 @@ const Brochure = () => (
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
+							📬 Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />

@@ -10,7 +10,7 @@ import SingleMockup from '../images/filmdex-desktop/filmdex-singlemovie-desktop-
 import FavouritesMockup from '../images/filmdex-desktop/filmdex-favourites-desktop-mockup.png';
 import AboutMockup from '../images/filmdex-desktop/filmdex-about-desktop-mockup.jpg';
 // Mobile Mockups
-import HomeMockupMob from '../images/filmdex-desktop/filmdex-home-mobile-mockup.png';
+import HomeMockupMob from '../images/filmdex-desktop/filmdex-home-mobile-mockup-2.png';
 import SingleMockupMob from '../images/filmdex-desktop/filmdex-singlemovie-mobile-mockup.png';
 import AboutMockupMob from '../images/filmdex-desktop/filmdex-about-mobile-mockup.png';
 import FavouritesMockupMob from '../images/filmdex-desktop/filmdex-favourites-mobile-mockup.png';
@@ -84,7 +84,7 @@ const Projects = () => (
 			<meta name="keywords"
 				content="JavaScript developer, React developer, remote web developer, web redesign services, Front end web developer Vancouver, web designer Vancouver, responsive user interfaces, interactive web applications, site designs, BCIT front end developer, Vancouver web design, hire web designer Vancouver, BCIT TWD, BCIT FED" />
 		</Helmet>
-		
+
 		<main>
 			<section>
 				<Reveal>
@@ -181,10 +181,6 @@ const Projects = () => (
 											title="Click to view full screen" />
 									</a>
 								</SRLWrapper>
-							</div>
-						</div>
-						<div className="project-detail-gallery">
-							<div className="project-detail-wireframe-brochure">
 								<SRLWrapper options={options}>
 									<a href={SingleMockupMob}>
 										<img src={SingleMockupMob}
@@ -203,7 +199,8 @@ const Projects = () => (
 									<a href={AboutMockupMob}>
 										<img src={AboutMockupMob}
 											alt="The About page in mobile, which is also similar to the desktop version."
-											title="Click to view full screen" />
+											title="Click to view full screen"
+											className="hidden-on-mobile" />
 									</a>
 								</SRLWrapper>
 							</div>
@@ -231,7 +228,7 @@ const Projects = () => (
 
 								<a href={FavouritesImage}>
 									<img src={FavouritesImage}
-										alt="The Favourites page, where users can see which movies they have favourited (which are stored in localStorage). By clicking on the movies on this page, they can click the Star button again to unfavourite a movie."
+										alt="The Favourites page (featuring my personal favorites), where users can see which movies they have favourited (which are stored in localStorage). By clicking on the movies on this page, they can click the Star button again to unfavourite a movie."
 										title="Click to view full screen" />
 								</a>
 
@@ -284,7 +281,7 @@ const Projects = () => (
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
+							📬 Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk.</a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
