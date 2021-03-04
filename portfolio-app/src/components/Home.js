@@ -45,7 +45,7 @@ const Home = (props) => {
                         <div className="home-project-list">
                             <div className="capstone-card">
                                 <p>
-                                    <Link to={'/capstone'}>🛍️ <b>Etoile</b></Link> &#x2014; Building a minimalist apparel store with Wordpress and PHP to improve the e-shopping experience.
+                                    <Link to={'/capstone'}><b>Etoile</b></Link> &#x2014; Building a minimalist fashion store with Wordpress and PHP to improve the e-shopping experience.
                             </p>
                             </div>
                             <div className="capstone-live-link">
@@ -58,7 +58,7 @@ const Home = (props) => {
 
                             <div className="movieapp-card">
                                 <p>
-                                    <Link to={'/movieapp'}>🎥 <b>Filmdex</b></Link> &#x2014; Combining React and a web API to create an movie search web application for film buffs.
+                                    <Link to={'/movieapp'}><b>Filmdex</b></Link> &#x2014; Combining React and a web API to create a movie search web application for film buffs.
                             </p>
                             </div>
                             <div className="movieapp-live-link">
@@ -71,7 +71,7 @@ const Home = (props) => {
 
                             <div className="portfolio-card">
                                 <p>
-                                    <Link to={'/portfolio'}>🖥️ <b>Portfolio</b></Link> &#x2014; Developing my portfolio site with React and Sass to showcase my projects and experience.
+                                    <Link to={'/portfolio'}><b>Portfolio</b></Link> &#x2014; Creating my portfolio site with React and Sass to showcase my projects and experience.
                             </p>
                             </div>
                             <div className="portfolio-live-link">
@@ -84,12 +84,12 @@ const Home = (props) => {
 
                             <div className="brochure-card">
                                 <p>
-                                    <Link to={'/brochure'}>🧀 <b>Keep It Cheesy</b></Link> &#x2014; Working with JavaScript and Sass to design a business site for gourmet cheese.
+                                    <Link to={'/brochure'}><b>Keep It Cheesy</b></Link> &#x2014; Using JavaScript and Sass to design a business site for gourmet cheese.
                             </p>
                             </div>
                             <div className="brochure-live-link">
-                                <a href="https://mbui.bcitwebdeveloper.ca/brochure/index.html"
-                                    title="https://mbui.bcitwebdeveloper.ca/brochure/index.html"
+                                <a href="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
+                                    title="https://mbui.bcitwebdeveloper.ca/keep-it-cheesy/index.html"
                                     target="_blank" rel="noreferrer" >
                                     <button className="round-btn">View Live </button>
                                 </a>

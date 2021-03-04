@@ -147,8 +147,7 @@ const Portfolio = () => (
 								<a href={PortfolioHomeMob}>
 									<img src={PortfolioHomeMob}
 										alt="A wireframe of the Home mobile page, starting with a welcoming banner, an introduction of who I am, and a button to see the About Me section. Below is a list of projects I completed at BCIT."
-										title="Click to view full screen"
-										className="hidden-on-mobile" />
+										title="Click to view full screen" />
 								</a>
 							</SRLWrapper>
 							<SRLWrapper options={options}>
@@ -209,7 +208,7 @@ const Portfolio = () => (
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							📬 Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
+							Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />

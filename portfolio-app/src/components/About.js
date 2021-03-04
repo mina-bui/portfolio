@@ -33,7 +33,7 @@ const About = () => (
 								Growing up surrounded by BC's landscape sparked an interest in sustainability, so I went to study  Geography &#x26; GIS at SFU, where I built reports and maps using spatial data. (I think this is what led me to web design).
                 			</p>
 							<p>
-								Today, I'm available for new challenges.<br /> Shoot me an email at <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" >hello@minabui.com </a> and let's talk. Cheers! ✌️
+								Today, I'm available for new challenges.<br /> Shoot me an email at <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" >hello@minabui.com </a> and let's talk about it. Cheers! ✌️
                 			</p>
 							<br />
 							<div className="about-resume">
@@ -55,18 +55,12 @@ const About = () => (
 
 					</div>
 					<div className="about-fun-facts">
-						<h4>💻 Specialties</h4>
+						<h4>Specialties</h4>
 						<ul>
 							<li>JavaScript</li>
 							<li>React.js</li>
 							<li>Responsive Design</li>
 							<li>WordPress Development</li>
-						</ul>
-						<h4>💡 Fun Facts</h4>
-						<ul>
-							<li>I'm a hamster &#x26; plant mom</li>
-							<li>I'm currently learning digital art</li>
-							<li>I love to go thrifting</li>
 						</ul>
 					</div>
 
