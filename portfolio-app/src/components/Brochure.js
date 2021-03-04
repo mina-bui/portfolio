@@ -92,7 +92,7 @@ const Brochure = () => (
 							<img src={brochureLaptop} alt="Keep It Cheesy homepage on laptop" className="project-laptop-banner" />
 						</div>
 						<br /><br />
-						<h2 className="project-detail-title">Keep It Cheesy &#x2014; <br class="mobile" /> Business Site</h2>
+						<h2 className="project-detail-title">Keep It Cheesy &#x2014; <br className="mobile" /> Business Site</h2>
 						<h2 className="project-detail-subtitle">Exploring CSS grids and flexboxes.</h2>
 					</div>
 					<div className="hidden-on-mobile">
@@ -280,7 +280,7 @@ const Brochure = () => (
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							📬 Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
+							📬 Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br className="mobile" />Let's talk. </a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />

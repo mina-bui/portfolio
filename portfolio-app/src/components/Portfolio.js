@@ -209,7 +209,7 @@ const Portfolio = () => (
 					</div>
 					<div className="project-contact-me">
 						<p className="mobile">
-							📬 Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br class="mobile" />Let's talk. </a>
+							📬 Questions about the process? <a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" ><br className="mobile" />Let's talk. </a>
 						</p>
 						<a href="mailto:hello@minabui.com" title="mailto:hello@minabui.com" target="_blank" rel="noreferrer" className="hidden-on-mobile" >
 							<img src={PopupMessage} alt="Popup computer message" className="popup-message-container" />
